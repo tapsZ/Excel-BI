@@ -90,7 +90,7 @@ Restrict what each person sees *within* one report.
 **In Desktop:** Modeling → **Manage roles** → create a role with a DAX filter:
 
 ```
-[Region] = "Europe"
+[Region] = "East Africa"
 ```
 
 Dynamic, using the signed-in user's identity — far more maintainable:
@@ -224,3 +224,8 @@ Those decisions are the actual professional skill; the clicking is easy.
 ---
 
 **Previous:** [Module 2](../02_storytelling_with_data/LESSON.md) · **Next:** [Module 4 — Capstone Project](../04_capstone_executive_dashboard/LESSON.md) · **Day 3 index:** [README](../README.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

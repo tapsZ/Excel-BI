@@ -71,7 +71,7 @@ The two ranges must be the same height and line up row for row. `F2:F31` and `H2
 | `"Laptop"` | exactly equal to Laptop |
 | `">1000"` | greater than 1000 |
 | `">="&B1` | greater than or equal to whatever is in B1 |
-| `"<>United States"` | **not** equal to United States |
+| `"<>Zimbabwe"` | **not** equal to Zimbabwe |
 | `"Lap*"` | starts with "Lap" (`*` = any characters) |
 
 Text and operators go in quotes. Cell references are joined on with `&`.
@@ -143,7 +143,7 @@ Click each cell in column L and read the formula bar:
 | `L8` | `=COUNTIF(F2:F31,"Laptop")` | **counting with a condition** |
 | `L9` | `=SUMIF(F2:F31,"Laptop",H2:H31)` | **adding with a condition** |
 | `L10` | `=COUNTIF(I2:I31,"Large")` | counting the results of your own `IF` |
-| `L11` | `=SUMIF(D2:D31,"United States",H2:H31)` | conditional on a *different* column |
+| `L11` | `=SUMIF(D2:D31,"Zimbabwe",H2:H31)` | conditional on a *different* column |
 
 Then look at column I, `Order Size`. Every cell holds:
 
@@ -196,3 +196,8 @@ Open **`practice_start.xlsx`**. Column L and column I are empty. Follow the `Ins
 ---
 
 **Previous:** [Module 4](../04_formulas_fundamentals/LESSON.md) · **Next:** [Module 6 — Sorting, Filtering & Organizing Data](../06_sorting_filtering_organizing/LESSON.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

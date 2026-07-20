@@ -1,13 +1,13 @@
 customer_id;first_name;last_name;country;state;city;score
-C001;Alex;Johnson;United States;CA;San Francisco;20
-C002;Maria;Garcia;United States;NY;New York;100
-C003;John;Smith;United States;TX;Dallas;
-C004;Li;Zhang;United States;WA;Seattle;30
-C005;Aarav;Kumar;United States;FL;Miami;150
-C006;Sofia;Lopez;United States;IL;Chicago;
-C007;Michael;Miller;United States;CA;Los Angeles;25
-C008;Wei;Wang;United States;NJ;Newark;
-C009;Priya;Singh;Germany;Bavaria;Munich;50
-C010;Emily;Brown;China;Guangdong;Shenzhen;350
-C011;David;Davis;India;Karnataka;Bengaluru;
-C012;Chen;Li;China;Shanghai;Shanghai;55
+C001;Tendai;Moyo;Zimbabwe;Harare;Harare;20
+C002;Rutendo;Chikafu;Zimbabwe;Bulawayo;Bulawayo;100
+C003;Farai;Ncube;Zimbabwe;Midlands;Gweru;
+C004;Kudzai;Sibanda;Zimbabwe;Manicaland;Mutare;30
+C005;Chipo;Marufu;Zimbabwe;Midlands;Kwekwe;150
+C006;Tatenda;Mpofu;Zimbabwe;Masvingo;Masvingo;
+C007;Nyasha;Banda;Zimbabwe;Harare;Chitungwiza;25
+C008;Simbarashe;Mutasa;Zimbabwe;Mashonaland West;Chinhoyi;
+C009;Thabo;Nkosi;South Africa;Gauteng;Johannesburg;50
+C010;Chanda;Phiri;Zambia;Lusaka;Lusaka;350
+C011;Kagiso;Molefe;Botswana;South-East;Gaborone;
+C012;Amara;Otieno;Kenya;Nairobi;Nairobi;55

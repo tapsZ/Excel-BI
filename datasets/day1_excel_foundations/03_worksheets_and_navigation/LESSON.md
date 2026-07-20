@@ -139,3 +139,8 @@ Open **`practice_start.xlsx`** and follow the `Instructions` sheet. You will:
 ---
 
 **Previous:** [Module 2](../02_formatting_cells_and_numbers/LESSON.md) · **Next:** [Module 4 — Formulas Fundamentals](../04_formulas_fundamentals/LESSON.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

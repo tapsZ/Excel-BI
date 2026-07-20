@@ -187,3 +187,8 @@ Work through as many as time allows. **Exercise 2 is the one that matters most.*
 ---
 
 **Previous:** [Module 3](../03_first_dashboard/LESSON.md) · **Next:** [Module 5 — Power Query Editor in Power BI](../05_power_query/LESSON.md) · **Day 2 index:** [README](../README.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

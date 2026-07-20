@@ -245,3 +245,8 @@ The tools will keep changing. The three things that won't:
 ---
 
 **Previous:** [Module 3](../03_publishing_and_sharing/LESSON.md) · **Day 3 index:** [README](../README.md) · **Course home:** [README](../../../README.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

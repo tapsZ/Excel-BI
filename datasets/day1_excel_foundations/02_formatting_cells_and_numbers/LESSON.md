@@ -127,3 +127,8 @@ Open **`practice_start.xlsx`** and follow the `Instructions` sheet. You will:
 ---
 
 **Previous:** [Module 1](../01_interface_and_workbook_basics/LESSON.md) · **Next:** [Module 3 — Multiple Worksheets & Navigation](../03_worksheets_and_navigation/LESSON.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

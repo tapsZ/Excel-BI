@@ -1,13 +1,13 @@
 CustomerID,CustomerName,Country,City
-C001,Alex Johnson,United States,San Francisco
-C002,Maria Garcia,United States,New York
-C003,John Smith,United States,Dallas
-C004,Li Zhang,United States,Seattle
-C005,Aarav Kumar,United States,Miami
-C006,Sofia Lopez,United States,Chicago
-C007,Michael Miller,United States,Los Angeles
-C008,Wei Wang,United States,Newark
-C009,Priya Singh,Germany,Munich
-C010,Emily Brown,China,Shenzhen
-C011,David Davis,India,Bengaluru
-C012,Chen Li,China,Shanghai
+C001,Tendai Moyo,Zimbabwe,Harare
+C002,Rutendo Chikafu,Zimbabwe,Bulawayo
+C003,Farai Ncube,Zimbabwe,Gweru
+C004,Kudzai Sibanda,Zimbabwe,Mutare
+C005,Chipo Marufu,Zimbabwe,Kwekwe
+C006,Tatenda Mpofu,Zimbabwe,Masvingo
+C007,Nyasha Banda,Zimbabwe,Chitungwiza
+C008,Simbarashe Mutasa,Zimbabwe,Chinhoyi
+C009,Thabo Nkosi,South Africa,Johannesburg
+C010,Chanda Phiri,Zambia,Lusaka
+C011,Kagiso Molefe,Botswana,Gaborone
+C012,Amara Otieno,Kenya,Nairobi

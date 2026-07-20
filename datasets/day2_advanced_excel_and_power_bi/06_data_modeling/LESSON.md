@@ -151,7 +151,7 @@ Write `Total Sales = SUM(fact_sales[line_total])` once. Then:
 
 - On a card with no filters → the grand total
 - In a table with Category on rows → each row shows *that category's* total
-- With a slicer set to Europe → only European sales
+- With a slicer set to East Africa → only East African sales
 - In a matrix by Category and Year → each cell computes its own intersection
 
 You wrote one formula. It produces a different answer in every cell, because each cell has a different **filter context**. Nothing is copied down.
@@ -264,7 +264,7 @@ Open **`Data Modeling.pbix`** and go to **Model view**.
 | `dim_product` | 7 | Aevo / Lumio / Corten Pro |
 | `dim_customer` | 5 | |
 | `dim_store` | 3 | Links on to `dim_region` — the snowflake |
-| `dim_region` | 3 | North America / Europe / Asia |
+| `dim_region` | 3 | Southern Africa / East Africa / West Africa |
 | `dim_saleseprson` | 6 | |
 | `dim_manager` | 2 | |
 | `dim_customer_segment` | 7 | **Multiple rows per customer** |
@@ -398,3 +398,8 @@ You have connected data, cleaned it, modelled it, and calculated on it. That is 
 ---
 
 **Previous:** [Module 5](../05_power_query/LESSON.md) · **Next:** [Day 2 Homework](../homework/HOMEWORK.md) · **Day 2 index:** [README](../README.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

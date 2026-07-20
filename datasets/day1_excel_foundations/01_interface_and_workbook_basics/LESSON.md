@@ -125,3 +125,8 @@ Open **`practice_start.xlsx`** and follow the `Instructions` sheet inside the wo
 ---
 
 **Next:** [Module 2 — Formatting Cells & Numbers](../02_formatting_cells_and_numbers/LESSON.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

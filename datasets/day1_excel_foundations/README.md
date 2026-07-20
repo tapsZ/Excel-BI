@@ -26,7 +26,7 @@ Each folder contains:
 - **`practice_start.xlsx`** — your working file. It has an `Instructions` sheet inside with the exact click-by-click steps.
 - **`practice_completed.xlsx`** — the answer key. Open it, click cells, read the formula bar.
 
-All eight modules use the **same dataset** — NovaTech Retail's order log (laptops, smartphones, tablets, accessories and smart home devices sold across the US, Germany, China and India). You will watch it grow from a plain list into a summarised, charted, interactive report. That same data continues into Day 2's Power BI work.
+All eight modules use the **same dataset** — NovaTech Retail's order log (laptops, smartphones, tablets, accessories and smart home devices sold across Zimbabwe and neighbouring African countries — South Africa, Zambia, Botswana and Kenya). You will watch it grow from a plain list into a summarised, charted, interactive report. That same data continues into Day 2's Power BI work.
 
 ---
 
@@ -78,3 +78,7 @@ Four ideas from today reappear almost unchanged in Power BI. Notice them as you 
 ---
 
 **Next:** [Day 2 — Advanced Excel & Transitioning to Power BI](../day2_advanced_excel_and_power_bi/README.md) · **Course home:** [README](../../README.md)
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

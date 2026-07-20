@@ -226,3 +226,8 @@ Then, on Day 2, we finish Excel properly — `XLOOKUP`, `INDEX`/`MATCH`, dynamic
 ---
 
 **Previous:** [Module 7](../07_tables_conditional_formatting_charts/LESSON.md) · **Next:** [Day 1 Homework](../homework/HOMEWORK.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

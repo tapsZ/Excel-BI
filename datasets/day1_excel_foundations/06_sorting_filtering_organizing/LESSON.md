@@ -46,7 +46,7 @@ Click an arrow and you can:
 - **Text Filters** → Contains, Begins With…
 - **Date Filters** → This Month, Last Year, Between…
 
-**Filters stack.** Filter Category to Laptop *and* Country to United States and you see only rows meeting both.
+**Filters stack.** Filter Category to Laptop *and* Country to Zimbabwe and you see only rows meeting both.
 
 Two things to watch:
 
@@ -172,3 +172,8 @@ Open **`practice_start.xlsx`** and follow the `Instructions` sheet:
 ---
 
 **Previous:** [Module 5](../05_functions_and_data_tips/LESSON.md) · **Next:** [Module 7 — Tables, Conditional Formatting & Charts](../07_tables_conditional_formatting_charts/LESSON.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

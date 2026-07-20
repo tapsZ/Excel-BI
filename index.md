@@ -16,9 +16,7 @@ Welcome. Everything you need for the three days is on this page — the lessons 
 
 Most lessons come with a workbook to practise in and a completed version to check your answers against.
 
-### → **[Download all course files (1.5 MB, .zip)](https://github.com/tapsZ/Excel-BI/archive/refs/heads/main.zip)**
-
-Save it somewhere you'll find it again, then unzip it. You can also download files one at a time from each day's page below.
+**Download them from each day's page below** — every module lists its Start file and Answer key, and the larger data sets come as a single zip you can grab in one click. Pick up each day's files as you reach it.
 
 ---
 
@@ -95,3 +93,7 @@ Software changes. These don't:
 ---
 
 *Excel fundamentals are structured after the [GCFGlobal / LearnFree Excel](https://edu.gcfglobal.org/en/excel2016/) curriculum.*
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

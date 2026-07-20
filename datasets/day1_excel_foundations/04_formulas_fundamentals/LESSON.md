@@ -196,3 +196,8 @@ Open **`practice_start.xlsx`**. Columns E to I are empty. Follow the `Instructio
 **Previous:** [Module 3](../03_worksheets_and_navigation/LESSON.md) · **Next:** [Module 5 — Functions & Working with Data](../05_functions_and_data_tips/LESSON.md)
 
 *End of the morning session. After the break we move from writing your own arithmetic to using Excel's built-in functions.*
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

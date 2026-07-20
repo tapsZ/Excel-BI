@@ -51,7 +51,7 @@ Put your answers somewhere sensible — a clear block to the right of the data, 
 | Q4 | What was the largest single order? | `MAX` |
 | Q5 | **Which category earned the most?** | see Part 4 |
 | Q6 | How many orders were over $1,000? | `COUNTIF` with `">1000"` |
-| Q7 | What were total sales **outside** the United States? | `SUMIF` with `"<>United States"` |
+| Q7 | What were total sales **outside** Zimbabwe? | `SUMIF` with `"<>Zimbabwe"` |
 
 ## Part 4 — Summarise and chart it *(Modules 7, 8)*
 
@@ -85,7 +85,7 @@ The `Branch Orders` sheet shows one reasonable way to have formatted the data.
 
 | Symptom | Likely cause |
 |---|---|
-| Q7 returns `0` | The `"<>United States"` criteria needs the `<>` **inside** the quotes |
+| Q7 returns `0` | The `"<>Zimbabwe"` criteria needs the `<>` **inside** the quotes |
 | Everything labelled `Medium` | Your nested `IF` tests 300 before 1000 — reverse them |
 | Pivot shows Count where you wanted Sum | Right-click the value → Summarize Values By → Sum |
 | Q1 doesn't match the key | Your `SUM` range missed a row — it should cover rows 2 to 36 |

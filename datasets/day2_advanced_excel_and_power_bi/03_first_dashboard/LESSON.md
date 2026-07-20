@@ -189,3 +189,8 @@ Build your own version from scratch — the fastest way to make this stick.
 ---
 
 **Previous:** [Module 2](../02_excel_power_query_and_power_pivot/LESSON.md) · **Next:** [Module 4 — Connecting to Different Data Sources](../04_connection_types/LESSON.md) · **Day 2 index:** [README](../README.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

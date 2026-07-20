@@ -181,3 +181,8 @@ Open **`practice_start.xlsx`** and follow the `Instructions` sheet:
 ---
 
 **Previous:** [Module 6](../06_sorting_filtering_organizing/LESSON.md) · **Next:** [Module 8 — PivotTables & What-If Analysis](../08_pivottables_and_what_if_analysis/LESSON.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

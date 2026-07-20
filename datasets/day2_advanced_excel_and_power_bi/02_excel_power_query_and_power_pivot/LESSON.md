@@ -246,3 +246,8 @@ You are not about to start learning a new tool this afternoon. You are about to 
 ---
 
 **Previous:** [Module 1 — Advanced Formulas](../01_advanced_formulas/LESSON.md) · **Next:** [Module 3 — Your First Power BI Dashboard](../03_first_dashboard/LESSON.md) · **Day 2 index:** [README](../README.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

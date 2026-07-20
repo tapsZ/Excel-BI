@@ -75,3 +75,7 @@ Cleaning and modelling together are 45%. A beautiful dashboard on a broken model
 ---
 
 **Previous:** [Day 2](../day2_advanced_excel_and_power_bi/README.md) · **Course home:** [README](../../README.md)
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

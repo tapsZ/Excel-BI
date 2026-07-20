@@ -202,3 +202,8 @@ Build a **one-page dashboard** on your Day 2 model. Requirements:
 ---
 
 **Next:** [Module 2 — Storytelling with Data](../02_storytelling_with_data/LESSON.md) · **Day 3 index:** [README](../README.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

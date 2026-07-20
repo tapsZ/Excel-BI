@@ -185,3 +185,8 @@ Load `sales_monthly.csv` and perform the full unpivot → split → pivot sequen
 ---
 
 **Previous:** [Module 4](../04_connection_types/LESSON.md) · **Next:** [Module 6 — Data Modelling & Introduction to DAX](../06_data_modeling/LESSON.md) · **Day 2 index:** [README](../README.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

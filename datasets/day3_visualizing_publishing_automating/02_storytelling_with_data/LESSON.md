@@ -52,11 +52,11 @@ The single highest-return change you can make to any dashboard.
 |---|---|
 | "Sales by Category" | "Laptops drive 47% of revenue" |
 | "Monthly Trend" | "Revenue has fallen three months running" |
-| "Sales by Region" | "Europe is 12% behind target; every other region is ahead" |
+| "Sales by Region" | "East Africa is 12% behind target; every other region is ahead" |
 
 A label makes the reader do the analysis. A finding hands it to them. You are the one who has looked at the data — say what you found.
 
-**Watch the honesty line.** If a title states a finding, the finding must survive filtering. A title reading "Europe is behind target" becomes false the moment someone slices to a different year. Either write titles that hold generally, or use a **dynamic title** driven by a DAX measure so the text updates with the data:
+**Watch the honesty line.** If a title states a finding, the finding must survive filtering. A title reading "East Africa is behind target" becomes false the moment someone slices to a different year. Either write titles that hold generally, or use a **dynamic title** driven by a DAX measure so the text updates with the data:
 
 ```
 Headline Title =
@@ -93,13 +93,13 @@ The instinct is to include everything, because leaving things out feels like hid
 
 Grey everything, then colour the one thing you want looked at. It feels almost too simple and it works better than any other single technique.
 
-Keep colour meaning **consistent across the whole report**: if red means "behind target" on page 1, it cannot mean "Europe" on page 2. Inconsistent colour quietly destroys trust in a report.
+Keep colour meaning **consistent across the whole report**: if red means "behind target" on page 1, it cannot mean "East Africa" on page 2. Inconsistent colour quietly destroys trust in a report.
 
 ### Writing the recommendation
 
 Put actual words on the dashboard — a text box is fine. Structure:
 
-> **What:** Europe finished Q2 12% behind target.
+> **What:** East Africa finished Q2 12% behind target.
 > **Why:** Laptop volume fell 22% after the March price change; other categories held.
 > **So what:** At the current run-rate, the annual target is missed by roughly $180k.
 > **Now what:** Review the laptop pricing decision before Q3 planning closes on the 15th.
@@ -110,7 +110,7 @@ Four sentences. That is what turns a dashboard into a decision — and almost no
 
 You will present your capstone this afternoon. What works:
 
-- **Lead with the finding**, not the method. "Europe is behind target, and here's why" — not "First I cleaned the data…"
+- **Lead with the finding**, not the method. "East Africa is behind target, and here's why" — not "First I cleaned the data…"
 - **Say the number, then what it means.** Never just the number.
 - **Don't narrate the build.** Nobody needs the story of your merges. Your effort shows in the result.
 - **Demonstrate one interaction**, not seven. Click one slicer, show the report respond, move on.
@@ -178,3 +178,8 @@ That last step is the one people skip, and it's the one that shows.
 ---
 
 **Previous:** [Module 1](../01_visualization_best_practices/LESSON.md) · **Next:** [Module 3 — Publishing, Sharing & Automating](../03_publishing_and_sharing/LESSON.md) · **Day 3 index:** [README](../README.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

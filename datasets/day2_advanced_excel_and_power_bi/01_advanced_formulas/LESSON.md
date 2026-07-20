@@ -19,7 +19,7 @@ Real data almost never lives in one table. Your order log records *which* custom
 
 ```
 Orders:    O0001 | C012 | NT-018 | 1
-Customers: C012  | Chen Li | China | Shanghai
+Customers: C012  | Amara Otieno | Kenya | Nairobi
 Products:  NT-018| iPhone 16 | Smartphone | $1,000
 ```
 
@@ -226,3 +226,8 @@ Open **`practice_start.xlsx`** and follow the `Instructions` sheet. Columns F–
 ---
 
 **Next:** [Module 2 — Power Query & Power Pivot in Excel](../02_excel_power_query_and_power_pivot/LESSON.md) · **Day 2 index:** [README](../README.md)
+
+
+---
+
+*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*
