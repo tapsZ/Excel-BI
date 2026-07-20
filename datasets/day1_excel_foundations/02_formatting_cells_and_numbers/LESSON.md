@@ -77,9 +77,9 @@ Always press `Ctrl` + `P` and *look* before printing. The preview is the truth.
 
 Compare the two workbooks side by side.
 
-`practice_start.xlsx` holds correct data that is painful to read: everything the same size and colour, sales showing as `1000` and `119.7`, dates as raw serial-looking values, no borders.
+`d1_m2_formatting_start.xlsx` holds correct data that is painful to read: everything the same size and colour, sales showing as `1000` and `119.7`, dates as raw serial-looking values, no borders.
 
-`practice_completed.xlsx` has exactly the same values, but:
+`d1_m2_formatting_answers.xlsx` has exactly the same values, but:
 
 - Header row: dark blue fill, white bold text, centred
 - **Sales** column: Currency — `$1,000.00`, `$119.70`. Note that `119.7` became `$119.70`; the trailing zero is formatting, not a changed number
@@ -95,7 +95,7 @@ Click any cell in the Sales column and check the formula bar. It still shows the
 
 ## Do it — practice
 
-Open **`practice_start.xlsx`** and follow the `Instructions` sheet. You will:
+Open **`d1_m2_formatting_start.xlsx`** and follow the `Instructions` sheet. You will:
 
 1. Style the header row (bold, dark fill, white text, centred)
 2. Format Sales as Currency and Order Date as Short Date
@@ -104,7 +104,7 @@ Open **`practice_start.xlsx`** and follow the `Instructions` sheet. You will:
 5. Use `Ctrl` + `H` to replace "Smart Home" with "Smart Home Device"
 6. Set up landscape printing with a repeating header row
 
-**Check yourself:** compare against `practice_completed.xlsx`.
+**Check yourself:** compare against `d1_m2_formatting_answers.xlsx`.
 
 ### If you get stuck
 

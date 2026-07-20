@@ -79,7 +79,7 @@ A common mistake is selecting the row you want frozen. Select the cell *below an
 
 ## See it — worked example
 
-Open `practice_completed.xlsx`.
+Open `d1_m3_worksheets_answers.xlsx`.
 
 There are seven sheets. `All Orders` holds the 40 source orders, sorted by category. Then one colour-coded sheet per category — `Laptop`, `Smartphone`, `Tablet`, `Accessory`, `Smart Home` — each holding only its own orders. Finally, `Summary`.
 
@@ -107,7 +107,7 @@ Now try this: go to the `Laptop` sheet and change any Sales figure. Return to Su
 
 ## Do it — practice
 
-Open **`practice_start.xlsx`** and follow the `Instructions` sheet. You will:
+Open **`d1_m3_worksheets_start.xlsx`** and follow the `Instructions` sheet. You will:
 
 1. Freeze the header row on `All Orders`
 2. Create and colour five category sheets

@@ -135,7 +135,7 @@ Errors are Excel telling you precisely where the problem is. Read them rather th
 
 ## See it — worked example
 
-Open `practice_completed.xlsx`, sheet `Invoice Calc`.
+Open `d1_m4_formulas_answers.xlsx`, sheet `Invoice Calc`.
 
 At the top, in the yellow box, sit two input cells: **Discount Rate** in `B3` (10%) and **Tax Rate** in `B4` (15%). Every calculation below reads from these two cells. They are not typed into any formula.
 
@@ -159,7 +159,7 @@ That is a *model*, not a spreadsheet. One number in, and the whole thing respond
 
 ## Do it — practice
 
-Open **`practice_start.xlsx`**. Columns E to I are empty. Follow the `Instructions` sheet to fill them in:
+Open **`d1_m4_formulas_start.xlsx`**. Columns E to I are empty. Follow the `Instructions` sheet to fill them in:
 
 1. `E7` → `=C7*D7`, then **double-click the fill handle** to copy it down
 2. `F7` → `=E7*$B$3` (type `B3` then press `F4`), copy down
@@ -169,7 +169,7 @@ Open **`practice_start.xlsx`**. Columns E to I are empty. Follow the `Instructio
 6. Totals row: `E27` → `=SUM(E7:E26)`, copy across to `I27`
 7. **Test it:** change `B3` to 25% and watch everything move
 
-**Check yourself:** set the discount back to 10% and tax to 15%, then compare your Total Due column against `practice_completed.xlsx`.
+**Check yourself:** set the discount back to 10% and tax to 15%, then compare your Total Due column against `d1_m4_formulas_answers.xlsx`.
 
 ### If you get stuck
 

@@ -159,7 +159,7 @@ Open `orders_messy.csv` in a text editor first and see what you are up against �
 
 Every one of those is a real thing that arrives in real exports, and every one is a menu click in Power Query.
 
-`financial_dashboard_start.xlsx` holds the category targets and a `Case Study Brief` sheet with the full step-by-step build.
+`d2_m2_financial_dashboard_start.xlsx` holds the category targets and a `Case Study Brief` sheet with the full step-by-step build.
 
 ---
 
@@ -200,7 +200,7 @@ Compare the before and after. The tall version is the one every analysis tool wa
 
 ### Exercise 5 — The dashboard case study (~35 min)
 
-Open `financial_dashboard_start.xlsx` and follow the `Case Study Brief` sheet. You will combine the folder, clean, merge, load to the **Data Model**, relate to the Targets table, write four DAX measures, and build a PivotTable dashboard with a chart and a slicer.
+Open `d2_m2_financial_dashboard_start.xlsx` and follow the `Case Study Brief` sheet. You will combine the folder, clean, merge, load to the **Data Model**, relate to the Targets table, write four DAX measures, and build a PivotTable dashboard with a chart and a slicer.
 
 **Finish with the refresh test:** add a row to `orders_2026.csv`, save it, then Data → **Refresh All** in Excel. The dashboard updates on its own.
 

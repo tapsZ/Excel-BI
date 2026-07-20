@@ -22,8 +22,8 @@ By lunchtime you'll have built an automated dashboard in Excel. By the end of th
 
 | # | Module | Time | You will learn | Files |
 |---|---|---|---|---|
-| 1 | [Advanced Formulas](01_advanced_formulas/LESSON.md) | 75 min | `XLOOKUP`, `INDEX`/`MATCH`, `IFS`, named ranges, Tables, dynamic arrays (`UNIQUE`, `SORT`, `FILTER`) | [Start](01_advanced_formulas/practice_start.xlsx) · [Answers](01_advanced_formulas/practice_completed.xlsx) |
-| 2 | [Power Query & Power Pivot in Excel](02_excel_power_query_and_power_pivot/LESSON.md) | 90 min | Get & Transform, append vs merge, unpivot, folder combine, the Data Model, first DAX measures, **financial dashboard case study** | [Case study workbook](02_excel_power_query_and_power_pivot/financial_dashboard_start.xlsx) |
+| 1 | [Advanced Formulas](01_advanced_formulas/LESSON.md) | 75 min | `XLOOKUP`, `INDEX`/`MATCH`, `IFS`, named ranges, Tables, dynamic arrays (`UNIQUE`, `SORT`, `FILTER`) | [Start](01_advanced_formulas/d2_m1_advanced_formulas_start.xlsx) · [Answers](01_advanced_formulas/d2_m1_advanced_formulas_answers.xlsx) |
+| 2 | [Power Query & Power Pivot in Excel](02_excel_power_query_and_power_pivot/LESSON.md) | 90 min | Get & Transform, append vs merge, unpivot, folder combine, the Data Model, first DAX measures, **financial dashboard case study** | [Case study workbook](02_excel_power_query_and_power_pivot/d2_m2_financial_dashboard_start.xlsx) |
 
 **Module 2 source files** — **[download source_files.zip](02_excel_power_query_and_power_pivot/source_files.zip)** (all 7 CSVs), unzip into one folder, and import them in the exercises.
 

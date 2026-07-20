@@ -100,7 +100,7 @@ A single running dataset — **NovaTech Retail**, a consumer electronics busines
 ```
 datasets/
   day1_excel_foundations/              8 modules + homework
-    0N_topic/  LESSON.md, practice_start.xlsx, practice_completed.xlsx
+    0N_topic/  LESSON.md, dN_mN_<topic>_start.xlsx, dN_mN_<topic>_answers.xlsx
   day2_advanced_excel_and_power_bi/    6 modules + homework
   day3_visualizing_publishing_automating/  4 modules + homework
 

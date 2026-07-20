@@ -106,7 +106,7 @@ That second behaviour is genuinely clever, and it is why Excel uses `SUBTOTAL` h
 
 ## See it — worked example
 
-Open `practice_completed.xlsx`, sheet `Orders`.
+Open `d1_m6_sorting_answers.xlsx`, sheet `Orders`.
 
 The 45 orders are sorted by **Category** (A→Z), and within each category by **Sales** (largest first). Under each category sits a shaded total row, and a gold grand total at the very bottom.
 
@@ -138,7 +138,7 @@ A note at the bottom of the sheet restates the `SUBTOTAL` rule for reference.
 
 ## Do it — practice
 
-Open **`practice_start.xlsx`** and follow the `Instructions` sheet:
+Open **`d1_m6_sorting_start.xlsx`** and follow the `Instructions` sheet:
 
 1. Sort by Sales, largest first — who placed the biggest order?
 2. Sort by Category, then Sales descending (two levels)
@@ -147,7 +147,7 @@ Open **`practice_start.xlsx`** and follow the `Instructions` sheet:
 5. Add subtotals by Category, summing Sales
 6. Use the `1 2 3` outline buttons — click `2` for an instant summary
 
-**Check yourself:** compare your category totals against `practice_completed.xlsx`.
+**Check yourself:** compare your category totals against `d1_m6_sorting_answers.xlsx`.
 
 ### If you get stuck
 

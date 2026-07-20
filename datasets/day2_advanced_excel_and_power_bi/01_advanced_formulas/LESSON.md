@@ -157,7 +157,7 @@ Things to know about spilling:
 
 ## See it — worked example
 
-Open `practice_completed.xlsx`. Five sheets: `Orders`, `Products`, `Customers`, `Tiers`, `Dynamic Arrays`.
+Open `d2_m1_advanced_formulas_answers.xlsx`. Five sheets: `Orders`, `Products`, `Customers`, `Tiers`, `Dynamic Arrays`.
 
 The `Orders` sheet starts with only IDs — `Customer ID` and `Product`. Columns F to M are all built by formula. Click across row 2 and read the formula bar:
 
@@ -186,7 +186,7 @@ On the `Dynamic Arrays` sheet, click the top-left cell of each result block. One
 
 ## Do it — practice
 
-Open **`practice_start.xlsx`** and follow the `Instructions` sheet. Columns F–M are empty.
+Open **`d2_m1_advanced_formulas_start.xlsx`** and follow the `Instructions` sheet. Columns F–M are empty.
 
 1. `F2` — `XLOOKUP` for Customer Name; copy down
 2. `G2` — `XLOOKUP` for Country

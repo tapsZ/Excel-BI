@@ -123,7 +123,7 @@ Data → What-If Analysis → **Data Table** produces a grid showing how a resul
 
 ## See it — worked example
 
-Open `practice_completed.xlsx`. Three sheets.
+Open `d1_m8_pivottables_answers.xlsx`. Three sheets.
 
 ### `Orders`
 
@@ -169,7 +169,7 @@ Change `B5` from 0% to 10% and the whole chain moves. This is Module 4's princip
 
 ## Do it — practice
 
-Open **`practice_start.xlsx`** and follow the `Instructions` sheet.
+Open **`d1_m8_pivottables_start.xlsx`** and follow the `Instructions` sheet.
 
 **Part A — your first PivotTable**
 1. Insert → PivotTable → New Worksheet
@@ -189,7 +189,7 @@ Open **`practice_start.xlsx`** and follow the `Instructions` sheet.
 11. **Goal Seek:** set `B13` to `18000` by changing `B5` — the answer is about **12.6%**
 12. **Scenario Manager:** add "Cautious" (3%) and "Aggressive" (12%), then produce a Summary
 
-**Check yourself:** your pivot's category and year totals should match the `Pivot Result` sheet in `practice_completed.xlsx`.
+**Check yourself:** your pivot's category and year totals should match the `Pivot Result` sheet in `d1_m8_pivottables_answers.xlsx`.
 
 ### If you get stuck
 

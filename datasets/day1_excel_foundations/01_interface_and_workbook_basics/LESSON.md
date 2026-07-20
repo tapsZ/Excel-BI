@@ -78,7 +78,7 @@ This trips up every beginner at least once. When you type, Excel silently decide
 
 ## See it — worked example
 
-Open `practice_completed.xlsx` and look at the `Orders` sheet. This is what a tidy basic worksheet looks like, and it is the shape all our data will take:
+Open `d1_m1_interface_answers.xlsx` and look at the `Orders` sheet. This is what a tidy basic worksheet looks like, and it is the shape all our data will take:
 
 - **Row 1 holds the headers** — Order ID, Order Date, Customer, and so on. One header per column, no blanks.
 - **Every row below is one order.** One record per row, always.
@@ -94,7 +94,7 @@ Now click on cell `B2`. The cell shows `17/01/2026`. Look at the formula bar —
 
 ## Do it — practice
 
-Open **`practice_start.xlsx`** and follow the `Instructions` sheet inside the workbook. In summary you will:
+Open **`d1_m1_interface_start.xlsx`** and follow the `Instructions` sheet inside the workbook. In summary you will:
 
 1. Explore the Name Box and Formula Bar, and jump around with `Ctrl` + arrows
 2. Fix two columns that are too narrow to read
@@ -102,7 +102,7 @@ Open **`practice_start.xlsx`** and follow the `Instructions` sheet inside the wo
 4. Type in a missing order (`O0008`) and re-sort the list
 5. Save the file with `Ctrl` + `S`
 
-**Check yourself:** open `practice_completed.xlsx`. You should have 12 orders, no duplicates, and every column readable.
+**Check yourself:** open `d1_m1_interface_answers.xlsx`. You should have 12 orders, no duplicates, and every column readable.
 
 ### If you get stuck
 

@@ -16,7 +16,7 @@ Your regional manager wants **a one-page summary they can actually read**, and a
 
 Everything you need was covered in today's eight modules. Nothing new.
 
-**Open `homework_start.xlsx` and work on the `Branch Orders` sheet.**
+**Open `d1_homework_start.xlsx` and work on the `Branch Orders` sheet.**
 
 ---
 
@@ -73,7 +73,7 @@ Put your answers somewhere sensible — a clear block to the right of the data, 
 
 ## Checking your work
 
-Open **`homework_answer_key.xlsx`**.
+Open **`d1_homework_answers.xlsx`**.
 
 The `Answers` sheet has every figure as a **live formula** — click any cell and read the formula bar to see exactly how it was worked out. There is also a category summary table (built with `SUMIF` and `COUNTIF`) showing what your PivotTable should produce, plus the finished chart.
 

@@ -102,7 +102,7 @@ That last point matters more than it sounds. It is the most common way a well-me
 
 ## See it — worked example
 
-Open `practice_completed.xlsx`.
+Open `d1_m7_tables_charts_answers.xlsx`.
 
 ### Sheet `Orders`
 
@@ -135,7 +135,7 @@ That comparison is the lesson. The chart type is a decision, not a decoration.
 
 ## Do it — practice
 
-Open **`practice_start.xlsx`** and follow the `Instructions` sheet:
+Open **`d1_m7_tables_charts_start.xlsx`** and follow the `Instructions` sheet:
 
 **Part A — Table**
 1. `Ctrl` + `T` to create the table
@@ -155,7 +155,7 @@ Open **`practice_start.xlsx`** and follow the `Instructions` sheet:
 11. Give it a proper title
 12. Add a pie chart of the same data and compare the two
 
-**Check yourself:** compare against `practice_completed.xlsx`.
+**Check yourself:** compare against `d1_m7_tables_charts_answers.xlsx`.
 
 ### If you get stuck
 

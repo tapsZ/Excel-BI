@@ -128,7 +128,7 @@ Use it to tidy a finished report — not while you are still building it, where 
 
 ## See it — worked example
 
-Open `practice_completed.xlsx`, sheet `Orders`. Thirty orders, with a Summary Statistics panel in columns K and L.
+Open `d1_m5_functions_answers.xlsx`, sheet `Orders`. Thirty orders, with a Summary Statistics panel in columns K and L.
 
 Click each cell in column L and read the formula bar:
 
@@ -161,7 +161,7 @@ One more thing worth seeing: `L2` (total of everything) is larger than `L9` (lap
 
 ## Do it — practice
 
-Open **`practice_start.xlsx`**. Column L and column I are empty. Follow the `Instructions` sheet:
+Open **`d1_m5_functions_start.xlsx`**. Column L and column I are empty. Follow the `Instructions` sheet:
 
 1. `L2:L6` — `SUM`, `AVERAGE`, `MAX`, `MIN`, `COUNT` on `H2:H31`
 2. `L7` — total units from column G
@@ -170,7 +170,7 @@ Open **`practice_start.xlsx`**. Column L and column I are empty. Follow the `Ins
 5. `L10` — count your "Large" labels
 6. `L11` — `SUMIF` on the Country column
 
-**Check yourself:** every figure in column L should match `practice_completed.xlsx`. If one is off, click that cell and read the formula bar — the mistake is visible there.
+**Check yourself:** every figure in column L should match `d1_m5_functions_answers.xlsx`. If one is off, click that cell and read the formula bar — the mistake is visible there.
 
 ### If you get stuck
 
