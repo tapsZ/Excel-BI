@@ -1,3 +1,7 @@
+---
+title: "Day 3 — Visualizing, Publishing & Automating Insights"
+---
+
 # Day 3 — Visualizing, Publishing & Automating Insights
 
 **Theme: From data to decisions — advanced reporting and storytelling**
@@ -23,17 +27,19 @@ The morning covers visual design and narrative — how to choose charts that don
 
 ## Afternoon Session — publishing & capstone
 
-| # | Module | Time | You will learn |
-|---|---|---|---|
-| 3 | [Publishing, Sharing & Automating](03_publishing_and_sharing/LESSON.md) | 60 min | Power BI Service, workspaces vs apps, licensing, **scheduled refresh**, gateways, row-level security, export, Analyze in Excel, Teams & SharePoint |
-| 4 | [**Capstone** — Executive Dashboard](04_capstone_executive_dashboard/LESSON.md) | 2 hrs + present | Build a complete dashboard from 23 sheets of raw data, then present it in two minutes |
+| # | Module | Time | You will learn | Files |
+|---|---|---|---|---|
+| 3 | [Publishing, Sharing & Automating](03_publishing_and_sharing/LESSON.md) | 60 min | Power BI Service, workspaces vs apps, licensing, **scheduled refresh**, gateways, row-level security, export, Analyze in Excel, Teams & SharePoint | *uses your Day 2 model* |
+| 4 | [**Capstone** — Executive Dashboard](04_capstone_executive_dashboard/LESSON.md) | 2 hrs + present | Build a complete dashboard from 23 sheets of raw data, then present it in two minutes | **[raw_tables.xlsx](04_capstone_executive_dashboard/raw_tables.xlsx)** |
 
-**Capstone data:** `04_capstone_executive_dashboard/raw_tables.xlsx`
-**Reference build:** `../../powerbi_files/day3_visualizing_publishing_automating/Project Clean Model.pbix`
+**Capstone data:** [raw_tables.xlsx](04_capstone_executive_dashboard/raw_tables.xlsx) — 23 sheets, download this before the afternoon session
+**Reference build:** [Project Clean Model.pbix](../../powerbi_files/day3_visualizing_publishing_automating/Project%20Clean%20Model.pbix) — *try Stages 1–3 yourself before opening this*
 
 ## Homework
 
 **[Extend, Automate, Publish](homework/HOMEWORK.md)** — about 45 minutes. Add a measure and a slicer-driven visual to your capstone, make it robust with a refresh indicator and RLS, then publish it.
+
+*No new files — you work in your own capstone build.*
 
 ---
 

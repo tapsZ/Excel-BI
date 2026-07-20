@@ -1,0 +1,29 @@
+title: Excel to Power BI
+description: A 3-day practical workshop — prepared for ZIMASCO, Kwekwe
+theme: jekyll-theme-cayman
+
+# Every .md file in this repo carries explicit YAML front matter with a title,
+# so Jekyll renders them as pages without needing jekyll-optional-front-matter
+# or jekyll-titles-from-headings.
+#
+# jekyll-relative-links is still required: the lessons link to each other as
+# "../02_module/LESSON.md", and this plugin rewrites those to the generated
+# .html URLs. It also keeps the same links working when browsing on github.com.
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - _site
+  - .jekyll-cache
+  - README.md
+
+# The .xlsx / .pbix / .csv course files need no configuration. Jekyll treats any
+# file without front matter as a static file and copies it through byte-for-byte,
+# so they download correctly from the published site.

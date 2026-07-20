@@ -1,3 +1,7 @@
+---
+title: "Day 3 Homework — Extend, Automate, Publish"
+---
+
 # Day 3 Homework — Extend, Automate, Publish
 
 **Time: about 45 minutes · The final piece of the course**

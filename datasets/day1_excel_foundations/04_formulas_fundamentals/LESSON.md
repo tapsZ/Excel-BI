@@ -1,3 +1,7 @@
+---
+title: "Module 4 — Formulas Fundamentals"
+---
+
 # Module 4 — Formulas Fundamentals
 
 **Day 1 · Morning · ~60 minutes**

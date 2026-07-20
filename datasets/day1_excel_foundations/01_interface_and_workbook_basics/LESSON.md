@@ -1,3 +1,7 @@
+---
+title: "Module 1 — Excel Interface & Workbook Basics"
+---
+
 # Module 1 — Excel Interface & Workbook Basics
 
 **Day 1 · Morning · ~45 minutes**

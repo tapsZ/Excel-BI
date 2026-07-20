@@ -1,3 +1,7 @@
+---
+title: "Day 3 · Module 4 — Capstone: Build and Present an Executive Dashboard"
+---
+
 # Day 3 · Module 4 — Capstone: Build and Present an Executive Dashboard
 
 **Afternoon · ~2 hours build + 5 minutes presenting**

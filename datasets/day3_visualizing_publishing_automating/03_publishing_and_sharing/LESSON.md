@@ -1,3 +1,7 @@
+---
+title: "Day 3 · Module 3 — Publishing, Sharing & Automating"
+---
+
 # Day 3 · Module 3 — Publishing, Sharing & Automating
 
 **Afternoon · ~60 minutes**

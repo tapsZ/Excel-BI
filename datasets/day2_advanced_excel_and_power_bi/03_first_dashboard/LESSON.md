@@ -1,3 +1,7 @@
+---
+title: "Day 2 · Module 3 — The Power BI Ecosystem & Your First Dashboard"
+---
+
 # Day 2 · Module 3 — The Power BI Ecosystem & Your First Dashboard
 
 **Afternoon · ~60 minutes**

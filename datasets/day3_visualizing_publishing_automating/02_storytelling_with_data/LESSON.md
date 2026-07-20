@@ -1,3 +1,7 @@
+---
+title: "Day 3 · Module 2 — Storytelling with Data: Turning Dashboards into Decisions"
+---
+
 # Day 3 · Module 2 — Storytelling with Data: Turning Dashboards into Decisions
 
 **Morning · ~45 minutes**

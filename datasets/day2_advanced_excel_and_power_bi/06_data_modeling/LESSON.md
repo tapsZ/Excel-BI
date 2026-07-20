@@ -1,3 +1,7 @@
+---
+title: "Day 2 · Module 6 — Data Modelling & Introduction to DAX"
+---
+
 # Day 2 · Module 6 — Data Modelling & Introduction to DAX
 
 **Afternoon · ~90 minutes**

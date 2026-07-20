@@ -1,3 +1,7 @@
+---
+title: "Module 3 — Multiple Worksheets & Navigation"
+---
+
 # Module 3 — Multiple Worksheets & Navigation
 
 **Day 1 · Morning · ~40 minutes**

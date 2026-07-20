@@ -1,3 +1,7 @@
+---
+title: "Day 3 · Module 1 — Power BI Visualization Best Practices"
+---
+
 # Day 3 · Module 1 — Power BI Visualization Best Practices
 
 **Morning · ~75 minutes**

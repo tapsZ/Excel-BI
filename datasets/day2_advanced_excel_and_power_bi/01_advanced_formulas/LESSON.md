@@ -1,3 +1,7 @@
+---
+title: "Day 2 · Module 1 — Advanced Formulas: Lookups, Logic & Dynamic Arrays"
+---
+
 # Day 2 · Module 1 — Advanced Formulas: Lookups, Logic & Dynamic Arrays
 
 **Morning · ~75 minutes**

@@ -1,3 +1,7 @@
+---
+title: "Day 1 — Excel Foundations"
+---
+
 # Day 1 — Excel Foundations
 
 **Theme: Getting comfortable and productive in Excel before going advanced**
@@ -28,27 +32,29 @@ All eight modules use the **same dataset** — NovaTech Retail's order log (lapt
 
 ## Morning Session — the mechanics of a spreadsheet
 
-| # | Module | Time | You will learn |
-|---|---|---|---|
-| 1 | [Excel Interface & Workbook Basics](01_interface_and_workbook_basics/LESSON.md) | 45 min | Cells, sheets, workbooks; the Formula Bar; navigating; inserting, deleting and resizing |
-| 2 | [Formatting Cells & Numbers](02_formatting_cells_and_numbers/LESSON.md) | 45 min | Fonts, fills, borders; Currency vs Accounting; the percentage trap; Find & Replace; printing |
-| 3 | [Multiple Worksheets & Navigation](03_worksheets_and_navigation/LESSON.md) | 40 min | Managing sheets; cross-sheet formulas like `=SUM(Laptop!F:F)`; freezing panes |
-| 4 | [Formulas Fundamentals](04_formulas_fundamentals/LESSON.md) | 60 min | Writing formulas; operators and brackets; the fill handle; **relative vs absolute references** |
+| # | Module | Time | You will learn | Files |
+|---|---|---|---|---|
+| 1 | [Excel Interface & Workbook Basics](01_interface_and_workbook_basics/LESSON.md) | 45 min | Cells, sheets, workbooks; the Formula Bar; navigating; inserting, deleting and resizing | [Start](01_interface_and_workbook_basics/practice_start.xlsx) · [Answers](01_interface_and_workbook_basics/practice_completed.xlsx) |
+| 2 | [Formatting Cells & Numbers](02_formatting_cells_and_numbers/LESSON.md) | 45 min | Fonts, fills, borders; Currency vs Accounting; the percentage trap; Find & Replace; printing | [Start](02_formatting_cells_and_numbers/practice_start.xlsx) · [Answers](02_formatting_cells_and_numbers/practice_completed.xlsx) |
+| 3 | [Multiple Worksheets & Navigation](03_worksheets_and_navigation/LESSON.md) | 40 min | Managing sheets; cross-sheet formulas like `=SUM(Laptop!F:F)`; freezing panes | [Start](03_worksheets_and_navigation/practice_start.xlsx) · [Answers](03_worksheets_and_navigation/practice_completed.xlsx) |
+| 4 | [Formulas Fundamentals](04_formulas_fundamentals/LESSON.md) | 60 min | Writing formulas; operators and brackets; the fill handle; **relative vs absolute references** | [Start](04_formulas_fundamentals/practice_start.xlsx) · [Answers](04_formulas_fundamentals/practice_completed.xlsx) |
 
 > **Module 4 is the most important module of the day.** Everything afterwards — functions, PivotTables, Power Query, even DAX in Power BI — rests on it. Don't rush it.
 
 ## Afternoon Session — turning a spreadsheet into an answer
 
-| # | Module | Time | You will learn |
-|---|---|---|---|
-| 5 | [Functions & Working with Data](05_functions_and_data_tips/LESSON.md) | 60 min | `SUM`, `AVERAGE`, `MAX`, `MIN`, `COUNT`; **`COUNTIF`, `SUMIF`**; nested `IF`; `IFERROR` |
-| 6 | [Sorting, Filtering & Organizing Data](06_sorting_filtering_organizing/LESSON.md) | 45 min | Multi-level sorting; filters; automatic Subtotals; why `SUBTOTAL` isn't `SUM` |
-| 7 | [Tables, Conditional Formatting & Charts](07_tables_conditional_formatting_charts/LESSON.md) | 55 min | Excel Tables and structured references; data bars and colour scales; choosing the right chart |
-| 8 | [PivotTables & What-If Analysis](08_pivottables_and_what_if_analysis/LESSON.md) | 60 min | Building PivotTables; slicers; PivotCharts; **Goal Seek** and Scenario Manager |
+| # | Module | Time | You will learn | Files |
+|---|---|---|---|---|
+| 5 | [Functions & Working with Data](05_functions_and_data_tips/LESSON.md) | 60 min | `SUM`, `AVERAGE`, `MAX`, `MIN`, `COUNT`; **`COUNTIF`, `SUMIF`**; nested `IF`; `IFERROR` | [Start](05_functions_and_data_tips/practice_start.xlsx) · [Answers](05_functions_and_data_tips/practice_completed.xlsx) |
+| 6 | [Sorting, Filtering & Organizing Data](06_sorting_filtering_organizing/LESSON.md) | 45 min | Multi-level sorting; filters; automatic Subtotals; why `SUBTOTAL` isn't `SUM` | [Start](06_sorting_filtering_organizing/practice_start.xlsx) · [Answers](06_sorting_filtering_organizing/practice_completed.xlsx) |
+| 7 | [Tables, Conditional Formatting & Charts](07_tables_conditional_formatting_charts/LESSON.md) | 55 min | Excel Tables and structured references; data bars and colour scales; choosing the right chart | [Start](07_tables_conditional_formatting_charts/practice_start.xlsx) · [Answers](07_tables_conditional_formatting_charts/practice_completed.xlsx) |
+| 8 | [PivotTables & What-If Analysis](08_pivottables_and_what_if_analysis/LESSON.md) | 60 min | Building PivotTables; slicers; PivotCharts; **Goal Seek** and Scenario Manager | [Start](08_pivottables_and_what_if_analysis/practice_start.xlsx) · [Answers](08_pivottables_and_what_if_analysis/practice_completed.xlsx) |
 
 ## Homework
 
 **[The Branch Report](homework/HOMEWORK.md)** — about 30 minutes. A fresh 35-order dataset to format, calculate, summarise and chart. Answer key included, with every figure as a live formula you can inspect.
+
+**Files:** [homework_start.xlsx](homework/homework_start.xlsx) · [homework_answer_key.xlsx](homework/homework_answer_key.xlsx)
 
 ---
 

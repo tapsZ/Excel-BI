@@ -1,3 +1,7 @@
+---
+title: "Module 7 — Tables, Conditional Formatting & Charts"
+---
+
 # Module 7 — Tables, Conditional Formatting & Charts
 
 **Day 1 · Afternoon · ~55 minutes**

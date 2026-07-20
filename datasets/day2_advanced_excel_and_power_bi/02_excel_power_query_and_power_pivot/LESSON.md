@@ -1,3 +1,7 @@
+---
+title: "Day 2 · Module 2 — Power Query & Power Pivot in Excel"
+---
+
 # Day 2 · Module 2 — Power Query & Power Pivot in Excel
 
 **Morning · ~90 minutes**

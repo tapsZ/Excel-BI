@@ -1,3 +1,7 @@
+---
+title: "Day 2 Homework — Clean, Model, Measure"
+---
+
 # Day 2 Homework — Clean, Model, Measure
 
 **Time: about 45 minutes · Do this before Day 3**

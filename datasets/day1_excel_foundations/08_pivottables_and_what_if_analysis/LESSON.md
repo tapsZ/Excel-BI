@@ -1,3 +1,7 @@
+---
+title: "Module 8 — PivotTables & What-If Analysis"
+---
+
 # Module 8 — PivotTables & What-If Analysis
 
 **Day 1 · Afternoon · ~60 minutes**

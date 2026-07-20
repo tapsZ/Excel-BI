@@ -1,3 +1,7 @@
+---
+title: "Day 2 · Module 5 — Data Cleaning & Transformation in Power BI"
+---
+
 # Day 2 · Module 5 — Data Cleaning & Transformation in Power BI
 
 **Afternoon · ~50 minutes**

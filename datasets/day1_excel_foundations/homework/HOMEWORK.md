@@ -1,3 +1,7 @@
+---
+title: "Day 1 Homework — The Branch Report"
+---
+
 # Day 1 Homework — The Branch Report
 
 **Time: about 30 minutes · Do this before Day 2**

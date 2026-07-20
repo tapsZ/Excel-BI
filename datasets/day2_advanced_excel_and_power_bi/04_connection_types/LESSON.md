@@ -1,3 +1,7 @@
+---
+title: "Day 2 · Module 4 — Connecting to Different Data Sources"
+---
+
 # Day 2 · Module 4 — Connecting to Different Data Sources
 
 **Afternoon · ~40 minutes**

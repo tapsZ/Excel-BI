@@ -1,3 +1,7 @@
+---
+title: "Day 2 — Advanced Excel & Transitioning to Power BI"
+---
+
 # Day 2 — Advanced Excel & Transitioning to Power BI
 
 **Theme: Finishing Excel, then making the leap — data modelling, integration, and transformation**
@@ -16,30 +20,43 @@ By lunchtime you'll have built an automated dashboard in Excel. By the end of th
 
 ## Morning Session — finalising Excel
 
-| # | Module | Time | You will learn |
-|---|---|---|---|
-| 1 | [Advanced Formulas](01_advanced_formulas/LESSON.md) | 75 min | `XLOOKUP`, `INDEX`/`MATCH`, `IFS`, named ranges, Tables, dynamic arrays (`UNIQUE`, `SORT`, `FILTER`) |
-| 2 | [Power Query & Power Pivot in Excel](02_excel_power_query_and_power_pivot/LESSON.md) | 90 min | Get & Transform, append vs merge, unpivot, folder combine, the Data Model, first DAX measures, **financial dashboard case study** |
+| # | Module | Time | You will learn | Files |
+|---|---|---|---|---|
+| 1 | [Advanced Formulas](01_advanced_formulas/LESSON.md) | 75 min | `XLOOKUP`, `INDEX`/`MATCH`, `IFS`, named ranges, Tables, dynamic arrays (`UNIQUE`, `SORT`, `FILTER`) | [Start](01_advanced_formulas/practice_start.xlsx) · [Answers](01_advanced_formulas/practice_completed.xlsx) |
+| 2 | [Power Query & Power Pivot in Excel](02_excel_power_query_and_power_pivot/LESSON.md) | 90 min | Get & Transform, append vs merge, unpivot, folder combine, the Data Model, first DAX measures, **financial dashboard case study** | [Case study workbook](02_excel_power_query_and_power_pivot/financial_dashboard_start.xlsx) |
 
-**Files:** Module 1 has `practice_start.xlsx` / `practice_completed.xlsx`. Module 2 works from real files in `source_files/` plus `financial_dashboard_start.xlsx`.
+**Module 2 source files** — download these into one folder, you'll import them in the exercises:
+[orders_2024.csv](02_excel_power_query_and_power_pivot/source_files/orders_2024.csv) ·
+[orders_2025.csv](02_excel_power_query_and_power_pivot/source_files/orders_2025.csv) ·
+[orders_2026.csv](02_excel_power_query_and_power_pivot/source_files/orders_2026.csv) ·
+[products.csv](02_excel_power_query_and_power_pivot/source_files/products.csv) ·
+[customers.csv](02_excel_power_query_and_power_pivot/source_files/customers.csv) ·
+[orders_messy.csv](02_excel_power_query_and_power_pivot/source_files/orders_messy.csv) ·
+[sales_by_month_wide.csv](02_excel_power_query_and_power_pivot/source_files/sales_by_month_wide.csv)
 
 ## Afternoon Session — introducing Power BI
 
-| # | Module | Time | You will learn |
-|---|---|---|---|
-| 3 | [The Power BI Ecosystem & Your First Dashboard](03_first_dashboard/LESSON.md) | 60 min | Desktop/Service/Mobile, connecting data, visuals, slicers, **cross-filtering** |
-| 4 | [Connecting to Different Data Sources](04_connection_types/LESSON.md) | 40 min | Excel, CSV, folders, SQL, JSON, delimited text; Import vs DirectQuery |
-| 5 | [Data Cleaning & Transformation in Power BI](05_power_query/LESSON.md) | 50 min | The same Power Query, plus column profiling; a full cleaning gauntlet; unpivot |
-| 6 | [Data Modelling & Introduction to DAX](06_data_modeling/LESSON.md) | 90 min | Star schemas, relationships, date tables, role-playing dimensions, measures vs columns, **filter context**, time intelligence, KPIs |
+| # | Module | Time | You will learn | Files |
+|---|---|---|---|---|
+| 3 | [The Power BI Ecosystem & Your First Dashboard](03_first_dashboard/LESSON.md) | 60 min | Desktop/Service/Mobile, connecting data, visuals, slicers, **cross-filtering** | [orders.csv](03_first_dashboard/orders.csv) · [customers.csv](03_first_dashboard/customers.csv) |
+| 4 | [Connecting to Different Data Sources](04_connection_types/LESSON.md) | 40 min | Excel, CSV, folders, SQL, JSON, delimited text; Import vs DirectQuery | [masterdata.xlsx](04_connection_types/masterdata_extended_1.xlsx) · [prices.json](04_connection_types/product_new_prices.json) · [events_log.txt](04_connection_types/events_log.txt) · [SQL script](04_connection_types/sql_server_database.sql) |
+| 5 | [Data Cleaning & Transformation in Power BI](05_power_query/LESSON.md) | 50 min | The same Power Query, plus column profiling; a full cleaning gauntlet; unpivot | [orders_jan](05_power_query/orders_jan.csv) · [orders_feb](05_power_query/orders_feb.csv) · [sales_flattable](05_power_query/sales_flattable.csv) · [sales_monthly](05_power_query/sales_monthly.csv) |
+| 6 | [Data Modelling & Introduction to DAX](06_data_modeling/LESSON.md) | 90 min | Star schemas, relationships, date tables, role-playing dimensions, measures vs columns, **filter context**, time intelligence, KPIs | 15 `dim_*` / `fact_*` CSVs — [get them in the zip](https://github.com/tapsZ/Excel-BI/archive/refs/heads/main.zip) |
 
-**Finished Power BI files** live in `../../powerbi_files/day2_advanced_excel_and_power_bi/`:
-`My First Dashboard.pbix` · `Data Cleaning (Power Query).pbix` · `Data Modeling.pbix`
+> **Module 4's twelve monthly files** (`MonthlySales/Sales_Jan.csv` … `Sales_Dec.csv`) are used for the "combine files from a folder" exercise. Easiest to get them via the [full download](https://github.com/tapsZ/Excel-BI/archive/refs/heads/main.zip), since you need them together in one folder anyway.
+
+**Finished Power BI files:**
+[My First Dashboard.pbix](../../powerbi_files/day2_advanced_excel_and_power_bi/My%20First%20Dashboard.pbix) ·
+[Data Cleaning (Power Query).pbix](../../powerbi_files/day2_advanced_excel_and_power_bi/Data%20Cleaning%20%28Power%20Query%29.pbix) ·
+[Data Modeling.pbix](../../powerbi_files/day2_advanced_excel_and_power_bi/Data%20Modeling.pbix)
 
 > **Module 6 is the most important module of the day.** Visuals are easy; a correct model is what makes them true.
 
 ## Homework
 
 **[Clean, Model, Measure](homework/HOMEWORK.md)** — about 45 minutes. Two messy quarterly exports from four African stores: clean them, append them, merge in lookups, model them, and write five measures. Exact checkpoint figures are given so you can verify every stage yourself.
+
+**Files:** [sales_q1.csv](homework/sales_q1.csv) · [sales_q2.csv](homework/sales_q2.csv) · [stores.csv](homework/stores.csv) · [products.csv](homework/products.csv)
 
 ---
 
