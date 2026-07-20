@@ -5,7 +5,7 @@ title: "Module 3 — Multiple Worksheets & Navigation"
 # Module 3 — Multiple Worksheets & Navigation
 
 **Day 1 · Morning · ~40 minutes**
-*Based on GCFGlobal/LearnFree Excel: Working with Multiple Worksheets, Freezing Panes and View Options*
+*Topics: Working with Multiple Worksheets, Freezing Panes and View Options*
 
 ---
 

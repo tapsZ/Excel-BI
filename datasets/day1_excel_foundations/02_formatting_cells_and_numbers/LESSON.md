@@ -5,7 +5,7 @@ title: "Module 2 — Formatting Cells & Numbers"
 # Module 2 — Formatting Cells & Numbers
 
 **Day 1 · Morning · ~45 minutes**
-*Based on GCFGlobal/LearnFree Excel: Formatting Cells, Understanding Number Formats, Find & Replace, Checking Spelling, Page Layout and Printing*
+*Topics: Formatting Cells, Understanding Number Formats, Find & Replace, Checking Spelling, Page Layout and Printing*
 
 ---
 

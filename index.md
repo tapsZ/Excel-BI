@@ -92,8 +92,4 @@ Software changes. These don't:
 
 ---
 
-*Excel fundamentals are structured after the [GCFGlobal / LearnFree Excel](https://edu.gcfglobal.org/en/excel2016/) curriculum.*
-
----
-
 *© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*

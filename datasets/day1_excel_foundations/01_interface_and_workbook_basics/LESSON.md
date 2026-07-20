@@ -5,7 +5,7 @@ title: "Module 1 — Excel Interface & Workbook Basics"
 # Module 1 — Excel Interface & Workbook Basics
 
 **Day 1 · Morning · ~45 minutes**
-*Based on GCFGlobal/LearnFree Excel: Getting Started, Creating & Opening Workbooks, Saving & Sharing, Cell Basics, Modifying Columns/Rows/Cells*
+*Topics: Getting Started, Creating & Opening Workbooks, Saving & Sharing, Cell Basics, Modifying Columns/Rows/Cells*
 
 > **You need no prior Excel experience for this module.** If you have never opened Excel before, start here.
 

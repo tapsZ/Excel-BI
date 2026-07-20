@@ -5,7 +5,7 @@ title: "Module 6 — Sorting, Filtering & Organizing Data"
 # Module 6 — Sorting, Filtering & Organizing Data
 
 **Day 1 · Afternoon · ~45 minutes**
-*Based on GCFGlobal/LearnFree Excel: Sorting Data, Filtering Data, Groups and Subtotals*
+*Topics: Sorting Data, Filtering Data, Groups and Subtotals*
 
 ---
 

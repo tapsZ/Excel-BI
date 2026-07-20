@@ -147,6 +147,3 @@ Tools change. These don't:
 2. **Model it properly.** Facts and dimensions, a star schema, every time.
 3. **Say what it means.** A number without a comparison and a recommendation changes nothing.
 
----
-
-*Excel fundamentals are structured after the [GCFGlobal / LearnFree Excel](https://edu.gcfglobal.org/en/excel2016/) curriculum.*

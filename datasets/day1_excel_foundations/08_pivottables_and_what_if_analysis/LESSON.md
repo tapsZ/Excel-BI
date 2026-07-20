@@ -5,7 +5,7 @@ title: "Module 8 — PivotTables & What-If Analysis"
 # Module 8 — PivotTables & What-If Analysis
 
 **Day 1 · Afternoon · ~60 minutes**
-*Based on GCFGlobal/LearnFree Excel: Intro to PivotTables, Doing More with PivotTables, What-If Analysis*
+*Topics: Intro to PivotTables, Doing More with PivotTables, What-If Analysis*
 
 > **This module is the bridge to Day 2.** A PivotTable is Excel's version of the idea that Power BI is built entirely around: take detailed rows, group them, and summarise them — interactively. Understand the PivotTable and Power BI will feel familiar rather than foreign.
 

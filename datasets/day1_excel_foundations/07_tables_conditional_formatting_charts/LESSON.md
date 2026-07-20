@@ -5,7 +5,7 @@ title: "Module 7 — Tables, Conditional Formatting & Charts"
 # Module 7 — Tables, Conditional Formatting & Charts
 
 **Day 1 · Afternoon · ~55 minutes**
-*Based on GCFGlobal/LearnFree Excel: Tables, Conditional Formatting, Charts*
+*Topics: Tables, Conditional Formatting, Charts*
 
 ---
 

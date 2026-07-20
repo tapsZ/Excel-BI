@@ -5,7 +5,7 @@ title: "Module 4 — Formulas Fundamentals"
 # Module 4 — Formulas Fundamentals
 
 **Day 1 · Morning · ~60 minutes**
-*Based on GCFGlobal/LearnFree Excel: Intro to Formulas, Creating More Complex Formulas, Relative and Absolute Cell References*
+*Topics: Intro to Formulas, Creating More Complex Formulas, Relative and Absolute Cell References*
 
 > **This is the most important module of Day 1.** Everything that follows — functions, PivotTables, Power Query, even DAX in Power BI on Day 2 — is built on the ideas here. Take your time.
 

@@ -5,7 +5,7 @@ title: "Module 5 — Functions & Working with Data"
 # Module 5 — Functions & Working with Data
 
 **Day 1 · Afternoon · ~60 minutes**
-*Based on GCFGlobal/LearnFree Excel: Functions, Basic Tips for Working with Data*
+*Topics: Functions, Basic Tips for Working with Data*
 
 ---
 
