@@ -6,7 +6,7 @@ title: "Excel to Power BI — A 3-Day Practical Workshop"
 
 **Advanced Analytics and Reporting: from your first cell to a published executive dashboard**
 
-*Workshop prepared for ZIMASCO, Kwekwe.*
+*A Global Academy workshop, prepared for ZIMASCO, Kwekwe.*
 
 📖 **Learners: read this course online at [tapsz.github.io/Excel-BI](https://tapsz.github.io/Excel-BI/)** — no GitHub account needed.
 

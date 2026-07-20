@@ -4,7 +4,7 @@ title: "Excel to Power BI — 3-Day Practical Workshop"
 
 # Excel to Power BI — 3-Day Practical Workshop
 
-*Workshop prepared for ZIMASCO, Kwekwe.*
+*A Global Academy workshop, prepared for ZIMASCO, Kwekwe.*
 
 Welcome. Everything you need for the three days is on this page — the lessons to read, and the practice files to download.
 
@@ -92,4 +92,4 @@ Software changes. These don't:
 
 ---
 
-*© 2026 Tapiwa Zireva. Prepared for the ZIMASCO (Kwekwe) workshop. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*
+*© 2026 Global Academy. Prepared for the ZIMASCO (Kwekwe) workshop. Facilitated by Tapiwa Zireva. Licensed to participants for personal learning — not for redistribution, resale, or reuse in other training without permission.*
