@@ -29,6 +29,18 @@ You can clean data with formulas. But next month the file arrives again and you 
 
 It also handles volumes formulas cannot — millions of rows, dozens of files, without the workbook grinding to a halt.
 
+### It's a pipeline (this is "ETL")
+
+Power Query is an **ETL** tool — **E**xtract, **T**ransform, **L**oad. Messy data goes in one end, each thing you do is a numbered **step**, and clean data comes out the other:
+
+![The Power Query pipeline: messy data enters and passes through five ordered steps — 1 Connect, 2 Remove bad data, 3 Split, 4 Merge, 5 Remove spaces — and clean data comes out.](../../../images/power-query-pipeline.svg)
+
+- **Extract** = step 1, **Connect** to the source.
+- **Transform** = the middle steps — remove bad rows, split columns, merge tables, trim spaces.
+- **Load** = send the clean result to your sheet or the Data Model.
+
+**Order matters.** The steps run **top to bottom**, each one working on the result of the one before — so you connect first and tidy last. Change the source data and the whole pipeline replays in the same order.
+
 ### Where to find it
 
 **Data** tab → **Get Data** (older versions: "Get & Transform"). Sources include Excel files, CSV, folders, databases, the web, JSON, and many more.
