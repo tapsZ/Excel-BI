@@ -51,7 +51,7 @@ A single running dataset — **NovaTech Retail**, a consumer electronics busines
 
 5. [Functions & Working with Data](datasets/day1_excel_foundations/05_functions_and_data_tips/LESSON.md) — `SUMIF`, `COUNTIF`, nested `IF`
 6. [Sorting, Filtering & Organizing Data](datasets/day1_excel_foundations/06_sorting_filtering_organizing/LESSON.md)
-7. [Tables, Conditional Formatting & Charts](datasets/day1_excel_foundations/07_tables_conditional_formatting_charts/LESSON.md)
+7. [Conditional Formatting & Charts](datasets/day1_excel_foundations/07_tables_conditional_formatting_charts/LESSON.md)
 8. [PivotTables & What-If Analysis](datasets/day1_excel_foundations/08_pivottables_and_what_if_analysis/LESSON.md)
 
 **Homework:** [The Branch Report](datasets/day1_excel_foundations/homework/HOMEWORK.md)

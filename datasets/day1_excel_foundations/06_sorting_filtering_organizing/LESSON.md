@@ -171,7 +171,7 @@ Open **`d1_m6_sorting_start.xlsx`** and follow the `Instructions` sheet:
 
 ---
 
-**Previous:** [Module 5](../05_functions_and_data_tips/LESSON.md) · **Next:** [Module 7 — Tables, Conditional Formatting & Charts](../07_tables_conditional_formatting_charts/LESSON.md)
+**Previous:** [Module 5](../05_functions_and_data_tips/LESSON.md) · **Next:** [Module 7 — Conditional Formatting & Charts](../07_tables_conditional_formatting_charts/LESSON.md)
 
 
 ---

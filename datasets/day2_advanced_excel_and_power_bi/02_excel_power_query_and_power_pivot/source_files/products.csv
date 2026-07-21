@@ -1,19 +1,19 @@
 SKU,Product,Category,ListPrice
-NT-001,Bluetooth Headphones,Accessory,86.99
-NT-002,Dell XPS 15,Laptop,1462.12
-NT-003,Echo Dot 6,Smart Home,167.73
-NT-004,Galaxy S24,Smartphone,730.12
-NT-005,Galaxy Tab S10,Tablet,572.75
-NT-006,Google Nest Hub 3,Smart Home,239.47
-NT-007,HP Spectre x360,Laptop,1505.26
-NT-008,Laptop Sleeve 15in,Accessory,107.3
-NT-009,MacBook Air M4,Laptop,1337.73
-NT-010,OnePlus 13,Smartphone,745.25
-NT-011,Pixel 9 Pro,Smartphone,1019.0
-NT-012,Ring Doorbell Pro,Smart Home,157.97
-NT-013,Surface Go 4,Tablet,863.4
-NT-014,ThinkPad X1,Laptop,1339.7
-NT-015,USB-C Hub 7in1,Accessory,113.64
-NT-016,Wireless Mouse Pro,Accessory,88.0
-NT-017,iPad Air 6,Tablet,721.84
-NT-018,iPhone 16,Smartphone,862.75
+NT-001,Bluetooth Headphones,Accessory,120.0
+NT-002,Dell XPS 15,Laptop,1500.0
+NT-003,Echo Dot 6,Smart Home,100.0
+NT-004,Galaxy S24,Smartphone,800.0
+NT-005,Galaxy Tab S10,Tablet,500.0
+NT-006,Google Nest Hub 3,Smart Home,150.0
+NT-007,HP Spectre x360,Laptop,1200.0
+NT-008,Laptop Sleeve 15in,Accessory,50.0
+NT-009,MacBook Air M4,Laptop,1000.0
+NT-010,OnePlus 13,Smartphone,600.0
+NT-011,Pixel 9 Pro,Smartphone,900.0
+NT-012,Ring Doorbell Pro,Smart Home,200.0
+NT-013,Surface Go 4,Tablet,600.0
+NT-014,ThinkPad X1,Laptop,1400.0
+NT-015,USB-C Hub 7in1,Accessory,80.0
+NT-016,Wireless Mouse Pro,Accessory,60.0
+NT-017,iPad Air 6,Tablet,700.0
+NT-018,iPhone 16,Smartphone,1000.0

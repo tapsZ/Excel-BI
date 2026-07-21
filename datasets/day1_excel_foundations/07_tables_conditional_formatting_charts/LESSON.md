@@ -1,49 +1,19 @@
 ---
-title: "Module 7 — Tables, Conditional Formatting & Charts"
+title: "Module 7 — Conditional Formatting & Charts"
 ---
 
-# Module 7 — Tables, Conditional Formatting & Charts
+# Module 7 — Conditional Formatting & Charts
 
-**Day 1 · Afternoon · ~55 minutes**
-*Topics: Tables, Conditional Formatting, Charts*
+**Day 1 · Afternoon · ~40 minutes**
+*Topics: Conditional Formatting, Charts*
 
 ---
 
 ## Learn it
 
-## Part A — Excel Tables
+Two features that turn a plain block of numbers into something a reader understands at a glance: colour that reacts to the values, and charts.
 
-A **Table** is a range you have formally told Excel is a table. It looks like formatting. It is much more than that.
-
-Create one: click inside your data → **`Ctrl` + `T`** → confirm "My table has headers" → OK.
-
-### Why tables are worth the two keystrokes
-
-**1. They grow by themselves.** Type a new row directly beneath a table and it joins the table automatically — inheriting the formatting, the formulas, and crucially any chart or PivotTable built on it. With a plain range you would have to go back and fix every reference.
-
-**2. Headers replace the column letters.** Scroll down a table and the column letters `A B C` turn into `Order ID`, `Customer`, `Sales`. No freezing needed.
-
-**3. Formulas read in English.** Inside a table you can write:
-
-```
-=SUM(OrdersTable[Sales])
-```
-
-instead of `=SUM(H2:H46)`. This is called a **structured reference**. It says what it means, and it stretches automatically as rows are added.
-
-**4. Built-in totals.** Table Design tab → tick **Total Row**. A total appears at the bottom with a dropdown to switch between Sum, Average, Count and so on. (It uses `SUBTOTAL` behind the scenes — the filter-aware function from Module 6.)
-
-**5. Filters come free**, already switched on.
-
-### Name your table
-
-Table Design tab → the **Table Name** box at the far left. Change `Table1` to something meaningful like `OrdersTable`.
-
-> **Do this every time.** Named tables make formulas readable, and when you connect this workbook to Power BI on Day 2 you will be picking your data source by name. `OrdersTable` is a great deal clearer than `Table1`.
-
----
-
-## Part B — Conditional Formatting
+## Part A — Conditional Formatting
 
 Conditional formatting makes cells change appearance based on their own value. The formatting is a live rule, not a paint job — change the number and the colour follows.
 
@@ -67,7 +37,7 @@ Conditional Formatting → **Manage Rules** lets you see every rule on the sheet
 
 ---
 
-## Part C — Charts
+## Part B — Charts
 
 A chart turns numbers into a picture. Choosing the *right* picture is most of the skill.
 
@@ -106,9 +76,7 @@ Open `d1_m7_tables_charts_answers.xlsx`.
 
 ### Sheet `Orders`
 
-The data is a real Excel Table called **OrdersTable** — click inside it and the **Table Design** tab appears with the name in the top-left box. Scroll down and watch the column letters become field names.
-
-Three conditional formatting rules are live:
+Plain order data — 45 rows — with three conditional formatting rules live on it:
 
 - **Data Bars** on Sales — instant visual comparison of order sizes
 - **A green-yellow-red colour scale** on Quantity
@@ -116,11 +84,11 @@ Three conditional formatting rules are live:
 
 Home → Conditional Formatting → **Manage Rules** shows all three with their ranges.
 
-Try this: change a Sales figure to `5000`. The cell turns red and its data bar stretches to full width immediately. The rules are live.
+Try this: change a Sales figure to `5000`. The cell turns red and its data bar stretches to full width immediately. The rules are live — they react to whatever the number becomes.
 
 ### Sheet `Summary`
 
-Five categories with `=SUMIF(Orders!F:F,A2,Orders!H:H)` pulling each total from the Orders sheet — a conditional sum from Module 5, doing real work.
+Five categories with `=SUMIF(Orders!F:F,A2,Orders!H:H)` pulling each total from the Orders sheet — a conditional sum from Module 5, doing real work. Because the prices are round whole numbers, you can check a total in your head: the Laptop figure should be the laptop orders added up exactly.
 
 Two charts sit beside it, deliberately showing the *same* data:
 
@@ -137,23 +105,17 @@ That comparison is the lesson. The chart type is a decision, not a decoration.
 
 Open **`d1_m7_tables_charts_start.xlsx`** and follow the `Instructions` sheet:
 
-**Part A — Table**
-1. `Ctrl` + `T` to create the table
-2. Rename it `OrdersTable`
-3. Add a Total Row, set to Sum on Sales
-4. Add a row at the bottom and watch the table absorb it
+**Part A — Conditional formatting**
+1. Data Bars on Sales
+2. Colour Scale on Quantity
+3. Highlight Cells Rule: Sales greater than 1500
+4. Open Manage Rules and inspect all three
 
-**Part B — Conditional formatting**
-5. Data Bars on Sales
-6. Colour Scale on Quantity
-7. Highlight Cells Rule: Sales greater than 1500
-8. Open Manage Rules and inspect all three
-
-**Part C — Charts**
-9. Build a `Summary` sheet with `=SUMIF(Orders!F:F,A2,Orders!H:H)`
-10. Insert a column chart from it
-11. Give it a proper title
-12. Add a pie chart of the same data and compare the two
+**Part B — Charts**
+5. Build a `Summary` sheet with `=SUMIF(Orders!F:F,A2,Orders!H:H)`, copied down the five categories
+6. Insert a column chart from it
+7. Give it a proper title
+8. Add a pie chart of the same data and compare the two
 
 **Check yourself:** compare against `d1_m7_tables_charts_answers.xlsx`.
 
@@ -161,20 +123,20 @@ Open **`d1_m7_tables_charts_start.xlsx`** and follow the `Instructions` sheet:
 
 | Problem | Why | Fix |
 |---|---|---|
-| `Ctrl` + `T` grabbed too much | A blank row or column broke the block | Correct the range in the dialog |
-| New row doesn't join the table | You left a blank row between | Type directly under the last row |
 | Conditional formatting looks wrong | Rule applied to the wrong range | Manage Rules → fix "Applies to" |
 | Every cell is coloured | Threshold too low, or overlapping rules | Manage Rules → adjust or delete |
+| Colour didn't change when I edited a number | The cell is outside the rule's range | Manage Rules → widen "Applies to" |
 | Chart is empty | Headers were not included in the selection | Reselect including row 1 |
 | Chart shows 45 bars | You charted raw rows, not a summary | Summarise first, then chart |
+| Pie is unreadable | Too many slices | Use a bar chart, or group small categories |
 
 ---
 
 ## Check your understanding
 
-1. Name two things a Table does that a plain range does not.
-2. What is a structured reference, and why is it easier to read than `H2:H46`?
-3. Why should you name your table before moving on to Power BI?
+1. What does "the rule is live" mean for conditional formatting?
+2. Why should you use only two or three conditional-formatting rules on a sheet?
+3. Why can't you chart 45 individual order rows directly — what do you do first?
 4. When is a pie chart a reasonable choice — and when is it not?
 5. Why is starting a bar chart's value axis above zero misleading?
 

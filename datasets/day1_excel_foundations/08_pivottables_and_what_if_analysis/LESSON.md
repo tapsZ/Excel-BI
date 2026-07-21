@@ -77,7 +77,7 @@ A slicer is a box of clickable buttons that filters the pivot. It does the same 
 
 This surprises everyone once. If a pivot disagrees with your source, refresh before you start debugging.
 
-> **Building your source properly matters.** A PivotTable needs a flat table: one row per record, one column per field, headers on row 1, no blank rows, no merged cells. This is the same rule from Module 1, and this is where breaking it finally bites. If your source is an Excel Table (Module 7), the pivot will also pick up new rows automatically.
+> **Building your source properly matters.** A PivotTable needs a tidy, flat block of data: one row per record, one column per field, headers on row 1, no blank rows, no merged cells. This is the same rule from Module 1, and this is where breaking it finally bites.
 
 ---
 
@@ -93,11 +93,11 @@ You know the answer you want. You want to know the input that produces it.
 
 ```
 Set cell:      B13   (the result you care about)
-To value:      18000 (the answer you want)
+To value:      16000 (the answer you want)
 By changing:   B5    (the input Excel may adjust)
 ```
 
-Excel works backwards and finds the value. "We need $18,000 profit — what price increase gets us there?"
+Excel works backwards and finds the value. "We need $16,000 profit — what price increase gets us there?"
 
 Three requirements:
 
@@ -186,7 +186,7 @@ Open **`d1_m8_pivottables_start.xlsx`** and follow the `Instructions` sheet.
 
 **Part C — What-If**
 10. On the `What-If` sheet, change `B5` and watch the results
-11. **Goal Seek:** set `B13` to `18000` by changing `B5` — the answer is about **12.6%**
+11. **Goal Seek:** set `B13` to `16000` by changing `B5` — the answer is about **10%**
 12. **Scenario Manager:** add "Cautious" (3%) and "Aggressive" (12%), then produce a Summary
 
 **Check yourself:** your pivot's category and year totals should match the `Pivot Result` sheet in `d1_m8_pivottables_answers.xlsx`.
@@ -217,7 +217,7 @@ Open **`d1_m8_pivottables_start.xlsx`** and follow the `Instructions` sheet.
 
 ## You have finished Day 1
 
-Look at what you can now do. You started by typing into a cell. You can now clean and format a dataset, write formulas that reference each other, use conditional functions, sort and filter and subtotal, build tables and charts and conditional formatting, summarise a hundred records with a PivotTable, and work backwards from a target with Goal Seek.
+Look at what you can now do. You started by typing into a cell. You can now clean and format a dataset, write formulas that reference each other, use conditional functions, sort and filter and subtotal, apply conditional formatting and build charts, summarise a hundred records with a PivotTable, and work backwards from a target with Goal Seek.
 
 **Now do the [Day 1 homework](../homework/HOMEWORK.md)** — a fresh dataset and about 30 minutes to prove all of it sticks.
 

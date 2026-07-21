@@ -77,12 +77,12 @@ Always press `Ctrl` + `P` and *look* before printing. The preview is the truth.
 
 Compare the two workbooks side by side.
 
-`d1_m2_formatting_start.xlsx` holds correct data that is painful to read: everything the same size and colour, sales showing as `1000` and `119.7`, dates as raw serial-looking values, no borders.
+`d1_m2_formatting_start.xlsx` holds correct data that is painful to read: everything the same size and colour, sales showing as bare numbers like `1000` and `120`, dates as raw serial-looking values, no borders.
 
 `d1_m2_formatting_answers.xlsx` has exactly the same values, but:
 
 - Header row: dark blue fill, white bold text, centred
-- **Sales** column: Currency — `$1,000.00`, `$119.70`. Note that `119.7` became `$119.70`; the trailing zero is formatting, not a changed number
+- **Sales** column: Currency — `$1,000.00`, `$120.00`. Note that the `.00` and the thousands comma are added by the *format*; the stored value is still just the whole number `1000`
 - **Order Date**: Short Date, consistent across every row
 - **Quantity**: centred, because short numbers look better centred than ragged
 - Borders around the whole table

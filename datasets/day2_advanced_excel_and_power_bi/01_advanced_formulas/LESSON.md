@@ -110,16 +110,6 @@ The second explains itself. Named ranges are already absolute, so there are no d
 
 Use them for anything referenced repeatedly: rate tables, lookup tables, key inputs.
 
-### Tables (a reminder, and why it matters more now)
-
-Day 1 Module 7 introduced `Ctrl` + `T`. On Day 2 it stops being cosmetic:
-
-- Structured references — `=SUM(Orders[Sales])` instead of `=SUM(H2:H101)`
-- **Tables grow automatically**, so lookups against a table keep working as rows arrive
-- **Power Query and Power BI both prefer named tables as sources**
-
-Name every table you create. `Orders` and `Products` beat `Table1` and `Table3` — especially this afternoon, when you will be selecting them by name in Power BI.
-
 ### Dynamic arrays
 
 *(Microsoft 365 / Excel 2021+. Skip if `#NAME?` appears — the older techniques above still cover you.)*
