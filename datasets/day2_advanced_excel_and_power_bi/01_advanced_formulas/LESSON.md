@@ -58,6 +58,32 @@ Three things to notice:
 
 > **If you inherit a workbook full of `VLOOKUP`**, check for a `FALSE` as the last argument. Without it, `VLOOKUP` matches *approximately* and will happily return the wrong row without any error at all. It is one of the most common causes of quietly incorrect spreadsheets in the wild.
 
+**A quick look at why.** Read a `VLOOKUP` left to right:
+
+```
+=VLOOKUP(103, A2:B4, 2, FALSE)
+```
+
+- `103` — what to look for
+- `A2:B4` — where to look
+- `2` — **which column to return**, counted from the left (1 = column A, 2 = column B)
+- `FALSE` — exact match (leave it off and `VLOOKUP` defaults to *approximate*)
+
+Two traps hide in that one line:
+
+- **The `2` is counted, not named.** Insert a column inside `A2:B4` and the `2` now points at the wrong column — every price shifts silently.
+- **Forget the `FALSE` and it guesses.** Take a price list where product **103 doesn't exist**:
+
+  | Product ID | Price |
+  |---|---|
+  | 101 | $10 |
+  | 102 | $20 |
+  | 104 | $40 |
+
+  `=VLOOKUP(103, A2:B4, 2)` returns **$20** — product 102's price — with **no error**, because approximate match falls back to the nearest smaller key. Add `FALSE` and you get an honest `#N/A` instead.
+
+`XLOOKUP` avoids both traps: you point at the return column directly (no counting), and it matches **exactly** by default.
+
 ### `INDEX` / `MATCH` — the one that works everywhere
 
 `XLOOKUP` needs Microsoft 365 or Excel 2021+. Plenty of organisations are on older versions, and you will meet this pairing constantly in existing files:
