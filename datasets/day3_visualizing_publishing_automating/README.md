@@ -16,6 +16,10 @@ Days 1 and 2 were about making the numbers *correct*. Day 3 is about making them
 
 The morning covers visual design and narrative — how to choose charts that don't mislead, and how to turn a page of figures into an argument someone acts on. The afternoon covers getting it in front of people and keeping it fresh without you, then a two-hour capstone on genuinely messy data.
 
+![Power BI workflow: Sources → 1 Power Query, 2 Modeling, 3 DAX, 4 Visuals, 5 Share → Managers.](../../images/powerbi-workflow.svg)
+
+*Today you finish the last two stages — **Visuals** and **Share** — and put the whole pipeline in front of decision-makers.*
+
 ---
 
 ## Morning Session — visualisation & storytelling

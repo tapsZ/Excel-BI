@@ -14,6 +14,12 @@ title: "Day 2 · Module 3 — The Power BI Ecosystem & Your First Dashboard"
 
 ## Learn it
 
+### The big picture
+
+![Power BI workflow: data Sources flow into Power BI, through five stages — 1 Power Query, 2 Modeling, 3 DAX, 4 Visuals, 5 Share — then out to Managers who read the finished report.](../../../images/powerbi-workflow.svg)
+
+*The five stages of Power BI. You build one per module across Days 2 and 3: **Power Query** (clean & shape — Modules 2 & 5) → **Modeling** (relationships — Module 6) → **DAX** (measures — Module 6) → **Visuals** (charts — Day 3 Module 1) → **Share** (publish — Day 3 Module 3). It starts by connecting to your **Sources** (Module 4) and ends with the report in front of **Managers**.*
+
 ### What Power BI actually is
 
 Three products that share one name:

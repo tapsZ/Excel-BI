@@ -16,6 +16,10 @@ The morning **finishes Excel** — the advanced formula and data techniques a pr
 
 By lunchtime you'll have built an automated dashboard in Excel. By the end of the day you'll have built the same kind of thing in Power BI, and understood why the second one scales and the first one doesn't.
 
+![Power BI workflow: Sources → 1 Power Query, 2 Modeling, 3 DAX, 4 Visuals, 5 Share → Managers.](../../images/powerbi-workflow.svg)
+
+*Power BI at a glance — you build one stage per module across Days 2 and 3.*
+
 ---
 
 ## Morning Session — finalising Excel
