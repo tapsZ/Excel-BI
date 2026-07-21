@@ -34,6 +34,10 @@ Three products that share one name:
 
 **You build in Desktop, you share through the Service, people read on the web or Mobile.** That is the whole workflow, and we cover publishing properly on Day 3.
 
+![The three Power BI products: Desktop (a Windows app where you build the report), Service (the website where you publish, share and schedule refresh), and Mobile (phone and tablet apps for viewing).](../../../images/powerbi-products.svg)
+
+*One report, three places: **build** it in Desktop → **publish** it to the Service (share it and let it refresh on a schedule) → **read** it on Mobile.*
+
 > **On a Mac?** Power BI Desktop is Windows-only. Options: a Windows VM (Parallels/UTM), Windows on Boot Camp, a cloud PC, or use the Power BI Service's browser-based editing — reduced, but enough to follow along. If none of these is available, work through the lesson by opening the provided `.pbix` files on a colleague's machine, and focus today on the Excel-side skills, which transfer directly.
 
 ### The three views in Desktop

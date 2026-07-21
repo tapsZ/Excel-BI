@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="The three Power BI products: Power BI Desktop (a Windows app where you build reports), Power BI Service (the website where you publish, share and schedule refresh), and Power BI Mobile (phone and tablet apps for viewing).">
+  <defs>
+    <g id="dash">
+      <rect x="4" y="4" width="36" height="24" rx="3" fill="#ffffff" stroke="#9aa0a6" stroke-width="1.6"/>
+      <rect x="46" y="4" width="36" height="24" rx="3" fill="#ffffff" stroke="#9aa0a6" stroke-width="1.6"/>
+      <rect x="88" y="4" width="36" height="24" rx="3" fill="#ffffff" stroke="#9aa0a6" stroke-width="1.6"/>
+      <g font-size="13" font-weight="700" fill="#252423" text-anchor="middle"><text x="22" y="21">5</text><text x="64" y="21">30</text><text x="106" y="21">50</text></g>
+      <rect x="150" y="4" width="44" height="106" fill="#ffffff" stroke="#9aa0a6" stroke-width="1.6"/>
+      <g stroke="#c7ccd3" stroke-width="2"><line x1="156" y1="22" x2="188" y2="22"/><line x1="156" y1="38" x2="188" y2="38"/><line x1="156" y1="54" x2="188" y2="54"/><line x1="156" y1="70" x2="188" y2="70"/><line x1="156" y1="86" x2="188" y2="86"/></g>
+      <circle cx="28" cy="80" r="22" fill="none" stroke="#118DFF" stroke-width="5"/>
+      <path d="M28 80 L28 58 A22 22 0 0 1 48 88 z" fill="#F2C811"/>
+      <line x1="62" y1="110" x2="124" y2="110" stroke="#c7ccd3" stroke-width="2"/>
+      <rect x="70" y="86" width="12" height="24" fill="#118DFF"/>
+      <rect x="86" y="66" width="12" height="44" fill="#50C878"/>
+      <rect x="102" y="78" width="12" height="32" fill="#F2C811"/>
+      <path d="M64 56 L86 48 L108 54 L130 40" fill="none" stroke="#C13584" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M124 39 L132 38 L129 46" fill="none" stroke="#C13584" stroke-width="2.5" stroke-linejoin="round"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="470" fill="#ffffff"/>
+  <g stroke="#d0d4da" stroke-width="2" stroke-dasharray="4 8"><line x1="400" y1="40" x2="400" y2="440"/><line x1="800" y1="40" x2="800" y2="440"/></g>
+
+  <!-- PANEL 1: DESKTOP -->
+  <g transform="translate(40,30)">
+    <rect x="0" y="6" width="11" height="26" rx="2" fill="#F2C811"/><rect x="14" y="-2" width="11" height="34" rx="2" fill="#F2C811"/><rect x="28" y="-8" width="11" height="40" rx="2" fill="#E6A700"/>
+  </g>
+  <text x="92" y="52" font-size="18" font-weight="700" fill="#252423">Power BI</text>
+  <text x="92" y="82" font-size="30" font-weight="700" fill="#252423">Desktop</text>
+  <rect x="92" y="88" width="128" height="5" rx="2.5" fill="#F2C811"/>
+  <!-- person -->
+  <g transform="translate(212,150)" stroke="#3b3a38" stroke-width="2" fill="none">
+    <circle cx="0" cy="0" r="17" fill="#fff"/><circle cx="-6" cy="-2" r="3.5" fill="#3b3a38"/><circle cx="6" cy="-2" r="3.5" fill="#3b3a38"/>
+    <path d="M-8 8 q8 6 16 0"/><path d="M-10 22 L0 16 L10 22" fill="#8a2b4a" stroke="#8a2b4a"/>
+  </g>
+  <!-- gear -->
+  <g transform="translate(120,185)" fill="#cfe0f2" stroke="#118DFF" stroke-width="2">
+    <path d="M0-26 6-24 8-32 16-30 15-22 22-18 28-24 34-16 27-11 29-3 37 0 35 8 27 8 24 15 30 21 22 28 16 22 8 25 8 33 0 31 -3 26z" transform="scale(0.62)"/>
+    <circle r="6" fill="#fff"/>
+  </g>
+  <!-- laptop -->
+  <rect x="140" y="188" width="176" height="116" rx="5" fill="#ffffff" stroke="#3b3a38" stroke-width="2.5"/>
+  <rect x="140" y="188" width="176" height="16" rx="5" fill="#f4c542"/>
+  <circle cx="305" cy="196" r="2" fill="#7a6a1f"/><circle cx="298" cy="196" r="2" fill="#7a6a1f"/><circle cx="291" cy="196" r="2" fill="#7a6a1f"/>
+  <use href="#dash" transform="translate(150,212) scale(0.74)"/>
+  <path d="M120 304 H336 l14 26 H106 z" fill="#dbeaf5" stroke="#3b3a38" stroke-width="2.5"/>
+  <text x="215" y="360" text-anchor="middle" font-size="15" font-weight="600" fill="#787c83">Where you build the report</text>
+
+  <!-- PANEL 2: SERVICE -->
+  <g transform="translate(440,30)">
+    <rect x="0" y="6" width="11" height="26" rx="2" fill="#F2C811"/><rect x="14" y="-2" width="11" height="34" rx="2" fill="#F2C811"/><rect x="28" y="-8" width="11" height="40" rx="2" fill="#E6A700"/>
+  </g>
+  <text x="492" y="52" font-size="18" font-weight="700" fill="#252423">Power BI</text>
+  <text x="492" y="82" font-size="30" font-weight="700" fill="#252423">Service</text>
+  <rect x="492" y="88" width="108" height="5" rx="2.5" fill="#F2C811"/>
+  <!-- cloud -->
+  <path d="M545 165 a24 24 0 0 1 10 -46 a30 30 0 0 1 57 6 a21 21 0 0 1 -3 40 z" fill="#dbeaf5" stroke="#7fb0d4" stroke-width="2.5"/>
+  <!-- windows tiles -->
+  <g transform="translate(475,150)"><rect x="0" y="0" width="15" height="15" fill="#F2C811"/><rect x="18" y="0" width="15" height="15" fill="#50C878"/><rect x="0" y="18" width="15" height="15" fill="#118DFF"/><rect x="18" y="18" width="15" height="15" fill="#E0512E"/></g>
+  <!-- browser window -->
+  <rect x="480" y="185" width="252" height="185" rx="6" fill="#ffffff" stroke="#3b3a38" stroke-width="2.5"/>
+  <rect x="480" y="185" width="252" height="18" rx="6" fill="#f4c542"/>
+  <circle cx="720" cy="194" r="2.4" fill="#7a6a1f"/><circle cx="712" cy="194" r="2.4" fill="#7a6a1f"/><circle cx="704" cy="194" r="2.4" fill="#7a6a1f"/>
+  <use href="#dash" transform="translate(505,214) scale(1.02)"/>
+  <!-- globe -->
+  <g transform="translate(705,378)" stroke="#3b3a38" stroke-width="2" fill="#eaf3fb">
+    <circle r="26"/><ellipse rx="11" ry="26" fill="none"/><line x1="-26" y1="0" x2="26" y2="0" fill="none"/><path d="M-24 -10 h48 M-24 10 h48" fill="none"/>
+  </g>
+  <!-- refresh 24 -->
+  <g transform="translate(505,378)">
+    <path d="M18 0 a18 18 0 1 1 -6 -13" fill="none" stroke="#E0512E" stroke-width="4"/>
+    <path d="M12 -18 L18 -13 L11 -8" fill="none" stroke="#E0512E" stroke-width="4" stroke-linejoin="round"/>
+    <text x="0" y="6" text-anchor="middle" font-size="16" font-weight="800" fill="#E0512E">24</text>
+  </g>
+  <text x="600" y="428" text-anchor="middle" font-size="15" font-weight="600" fill="#787c83">Publish, share &amp; auto-refresh — online</text>
+
+  <!-- PANEL 3: MOBILE -->
+  <g transform="translate(840,30)">
+    <rect x="0" y="6" width="11" height="26" rx="2" fill="#F2C811"/><rect x="14" y="-2" width="11" height="34" rx="2" fill="#F2C811"/><rect x="28" y="-8" width="11" height="40" rx="2" fill="#E6A700"/>
+  </g>
+  <text x="892" y="52" font-size="18" font-weight="700" fill="#252423">Power BI</text>
+  <text x="892" y="82" font-size="30" font-weight="700" fill="#252423">Mobile</text>
+  <rect x="892" y="88" width="104" height="5" rx="2.5" fill="#F2C811"/>
+  <!-- phone -->
+  <rect x="952" y="150" width="112" height="228" rx="16" fill="#ffffff" stroke="#3b3a38" stroke-width="2.5"/>
+  <line x1="992" y1="166" x2="1024" y2="166" stroke="#b7bcc3" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="1008" cy="364" r="7" fill="none" stroke="#b7bcc3" stroke-width="2.5"/>
+  <line x1="1008" y1="332" x2="1008" y2="332"/>
+  <!-- mini chart in phone -->
+  <line x1="968" y1="330" x2="1048" y2="330" stroke="#3b3a38" stroke-width="2"/>
+  <rect x="974" y="292" width="16" height="38" fill="#a9cdee" stroke="#3b3a38" stroke-width="1.6"/>
+  <rect x="1000" y="248" width="16" height="82" fill="#118DFF" stroke="#3b3a38" stroke-width="1.6"/>
+  <rect x="1026" y="278" width="16" height="52" fill="#a9cdee" stroke="#3b3a38" stroke-width="1.6"/>
+  <path d="M974 238 L1008 218 L1042 246" fill="none" stroke="#C13584" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M1036 244 L1044 246 L1041 254" fill="none" stroke="#C13584" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="1008" y="410" text-anchor="middle" font-size="15" font-weight="600" fill="#787c83">View anywhere</text>
+</svg>

@@ -6,6 +6,9 @@ title: "Excel to Power BI — 3-Day Practical Workshop"
 
 *A Global Academy workshop, prepared for ZIMASCO, Kwekwe.*
 
+> ### *"Without data you are just another person with an opinion."*
+> — **W. Edwards Deming**
+
 Welcome. Everything you need for the three days is on this page — the lessons to read, and the practice files to download.
 
 **You do not need any prior Excel experience.** Day 1 starts with what a cell is. By the end of Day 3 you'll have built and published a working dashboard.
