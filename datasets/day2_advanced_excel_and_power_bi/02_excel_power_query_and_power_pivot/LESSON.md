@@ -15,6 +15,12 @@ title: "Day 2 · Module 2 — Power Query & Power Pivot in Excel"
 
 ## Learn it
 
+Real data almost never arrives clean. It looks like this:
+
+![A raw data table full of problems: a blank (null) sales value, a whole row of ERROR, the ID 1003 duplicated with the name spelled MARIA on one row and maria on another, and a malformed value 40/40.](../../../images/messy-data.svg)
+
+*Blanks (`null`), an error row, a **duplicate** ID (`1003` twice), the same name in different cases (`MARIA` vs `maria`), and a broken value (`40/40`). Fixing this by hand every month is misery. **Power Query is how you fix it once and have the fix replay automatically** every time the data refreshes.*
+
 ### Why formulas are not enough
 
 You can clean data with formulas. But next month the file arrives again and you do it all over.
