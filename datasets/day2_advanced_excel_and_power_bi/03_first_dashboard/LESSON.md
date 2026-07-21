@@ -10,6 +10,8 @@ title: "Day 2 · Module 3 — The Power BI Ecosystem & Your First Dashboard"
 **Finished example:** `powerbi_files/day2_advanced_excel_and_power_bi/My First Dashboard.pbix`
 **Data:** `customers.csv`, `orders.csv` (this folder)
 
+**📥 Data files:** [orders.csv](orders.csv) · [customers.csv](customers.csv)
+
 ---
 
 ## Learn it

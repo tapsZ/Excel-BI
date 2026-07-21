@@ -10,6 +10,8 @@ title: "Day 2 · Module 5 — Data Cleaning & Transformation in Power BI"
 **Finished example:** `powerbi_files/day2_advanced_excel_and_power_bi/Data Cleaning (Power Query).pbix`
 **Data:** `orders_jan.csv`, `orders_feb.csv`, `sales_flattable.csv`, `sales_monthly.csv` (this folder)
 
+**📥 Data files:** [orders_jan.csv](orders_jan.csv) · [orders_feb.csv](orders_feb.csv) · [sales_flattable.csv](sales_flattable.csv) · [sales_monthly.csv](sales_monthly.csv)
+
 ---
 
 ## Learn it

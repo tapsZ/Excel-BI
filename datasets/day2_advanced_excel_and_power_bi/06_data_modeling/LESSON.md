@@ -12,6 +12,8 @@ title: "Day 2 · Module 6 — Data Modelling & Introduction to DAX"
 
 > **This is the most important module on Day 2.** Visuals are easy. A good model is what makes them correct.
 
+**📥 Data files:** [data_modeling_data.zip](data_modeling_data.zip) — the 14 dim/fact CSVs
+
 ---
 
 ## Learn it

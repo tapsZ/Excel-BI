@@ -9,7 +9,7 @@ title: "Day 2 · Module 2 — Power Query & Power Pivot in Excel"
 
 > **This module is the hinge of the whole course.** Power Query and the Data Model are not really Excel features — they are the *Power BI engine*, shipped inside Excel. Learn them here and you have already learned half of this afternoon.
 
-**📥 Practice file:** [Case study workbook](d2_m2_financial_dashboard_start.xlsx)
+**📥 Practice files:** [Source data (all 7 CSVs, zip)](source_files.zip) · [Case study workbook](d2_m2_financial_dashboard_start.xlsx)
 
 ---
 
@@ -148,12 +148,14 @@ This module works from real files rather than a finished workbook, because Power
 
 Look in **`source_files/`**:
 
+*(click a filename to download it, or grab them all with the [zip above](source_files.zip))*
+
 | File | Purpose |
 |---|---|
-| `orders_2024.csv`, `orders_2025.csv`, `orders_2026.csv` | 20 orders split by year — the **append** and **folder combine** exercise |
-| `products.csv`, `customers.csv` | Lookup tables — the **merge** exercise |
-| `orders_messy.csv` | Deliberately dirty — the **cleaning** exercise |
-| `sales_by_month_wide.csv` | Six month-columns — the **unpivot** exercise |
+| [orders_2024.csv](source_files/orders_2024.csv) · [orders_2025.csv](source_files/orders_2025.csv) · [orders_2026.csv](source_files/orders_2026.csv) | 20 orders split by year — the **append** and **folder combine** exercise |
+| [products.csv](source_files/products.csv) · [customers.csv](source_files/customers.csv) | Lookup tables — the **merge** exercise |
+| [orders_messy.csv](source_files/orders_messy.csv) | Deliberately dirty — the **cleaning** exercise |
+| [sales_by_month_wide.csv](source_files/sales_by_month_wide.csv) | Six month-columns — the **unpivot** exercise |
 
 Open `orders_messy.csv` in a text editor first and see what you are up against — this is what real exported data looks like:
 

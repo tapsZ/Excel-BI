@@ -9,6 +9,8 @@ title: "Day 2 · Module 4 — Connecting to Different Data Sources"
 
 **Data:** this folder
 
+**📥 Data files:** [masterdata_extended_1.xlsx](masterdata_extended_1.xlsx) · [product_new_prices.json](product_new_prices.json) · [events_log.txt](events_log.txt) · [sql_server_database.sql](sql_server_database.sql) · [MonthlySales.zip](MonthlySales.zip)
+
 ---
 
 ## Learn it
