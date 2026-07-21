@@ -89,31 +89,47 @@ PivotTables answer *what happened*. What-If answers *what might happen* — and,
 
 ### Goal Seek — the useful one
 
-You know the answer you want. You want to know the input that produces it.
+Normally Excel works **forwards**: you type the inputs, and a formula gives you the answer.
+
+**Goal Seek works backwards.** You tell Excel the answer you *want*, and it finds the input that gets you there.
+
+**A simple example.** Laptops sell for **$1,000** each. You want **$10,000** in laptop sales. How many must you sell? You could work it out — 10 — but Goal Seek does it for you, even when the maths is too messy to do in your head.
+
+> **Where the cells live.** In the practice workbook this all sits on a sheet called **`What-If`** — a separate sheet from `Orders`, with just three cells:
+>
+> | Cell | Meaning | Holds |
+> |---|---|---|
+> | `B4` | Laptops to sell | a plain number (starts at 5) |
+> | `B5` | Price each | 1000 |
+> | `B7` | **Total sales** | the formula `=B4*B5` |
+
+To find how many laptops reach $10,000, open **Data → What-If Analysis → Goal Seek** and fill in three boxes:
 
 ```
-Set cell:      B13   (the result you care about)
-To value:      3000  (the answer you want)
-By changing:   B5    (the input Excel may adjust)
+Set cell:      B7      (Total sales — the cell with the formula)
+To value:      10000   (the answer you want)
+By changing:   B4      (Laptops to sell — a plain number)
 ```
 
-Excel works backwards and finds the value. "We need $3,000 profit — what price increase gets us there?"
+Click OK and Excel puts **10** in `B4` — because 10 × 1,000 = 10,000. That's it: *you knew the result you wanted, and Excel found the input.*
 
-Three requirements:
+The three boxes, in plain words:
 
-1. **Set cell** must contain a **formula**
-2. **By changing** must contain a **plain number**, not a formula
-3. That input cell must actually feed into the result, through however many steps
+| Box | What it is |
+|---|---|
+| **Set cell** | the answer you want to control — it must hold a **formula** (here, `B7`) |
+| **To value** | the number you want that answer to become (here, `10000`) |
+| **By changing** | the input Excel is allowed to adjust — it must be a **plain number**, not a formula (here, `B4`) |
 
-Goal Seek changes one input to hit one target. That is its limit, and within it, it is excellent.
+Two rules that follow from this: the **Set cell** must contain a formula, and the **By changing** cell must be a plain number that actually feeds into that formula. Goal Seek changes one input to hit one target — that is its limit, and within it, it is excellent.
 
 ### Scenario Manager
 
 Save several named sets of input values and switch between them.
 
-Data → What-If Analysis → **Scenario Manager** → Add. Name it ("Cautious"), pick the changing cells, enter the values. Repeat for other scenarios. Then **Show** to apply one, or **Summary** to generate a side-by-side comparison report of all of them.
+Data → What-If Analysis → **Scenario Manager** → Add. Name it ("Modest"), pick the changing cell (`B4`), enter a value (say 8). Repeat for another ("Ambitious", 15). Then **Show** to apply one, or **Summary** to generate a side-by-side comparison of the Total sales each one gives.
 
-This is how you present options to a decision-maker: not one number, but three, clearly labelled.
+This is how you present options to a decision-maker: not one number, but two or three, clearly labelled.
 
 ### Data Tables
 
@@ -149,21 +165,12 @@ Note the absolute references (`$J$2:$J$21`) so the formula can be copied across 
 
 ### `What-If`
 
-A small projection model:
+A tiny, self-contained planner — everything is on this one sheet:
 
-- **Yellow cells (B4:B8)** — inputs you change: current revenue, price increase, volume change, cost %, fixed costs
-- **Green cells (B11:B14)** — calculated results: projected revenue, costs, profit, margin
+- **Yellow cells** — the inputs: `B4` laptops to sell, `B5` price each (1000)
+- **Green cell** — the result: `B7` total sales, holding `=B4*B5`
 
-The results chain together: revenue feeds costs, and both feed profit.
-
-```
-B11  =B4*(1+B5)*(1+B6)      revenue after price and volume changes
-B12  =B11*B7+B8             variable costs plus fixed costs
-B13  =B11-B12               profit
-B14  =IFERROR(B13/B11,0)    margin, protected against divide-by-zero
-```
-
-Change `B5` from 0% to 10% and the whole chain moves. This is Module 4's principle at full size: inputs in their own cells, formulas referencing them, and a model that responds.
+Change `B4` (laptops) and watch `B7` (total sales) update — that's the *forward* direction. Then use Goal Seek to run it *backwards*: set `B7` to `10000` and let Excel find the laptops (`B4` = 10). One multiplication, so you can check it in your head: 10 × 1,000 = 10,000.
 
 ---
 
@@ -184,10 +191,10 @@ Open **`d1_m8_pivottables_start.xlsx`** and follow the `Instructions` sheet.
 8. Insert a Slicer on Category and click the buttons
 9. Insert a PivotChart
 
-**Part C — What-If**
-10. On the `What-If` sheet, change `B5` and watch the results
-11. **Goal Seek:** set `B13` to `3000` by changing `B5` — the answer is about **7%**
-12. **Scenario Manager:** add "Cautious" (3%) and "Aggressive" (12%), then produce a Summary
+**Part C — What-If (all on the `What-If` sheet)**
+10. Change `B4` (laptops to sell) and watch `B7` (total sales) update — the forward direction
+11. **Goal Seek:** set `B7` to `10000` by changing `B4` — the answer is `10`
+12. **Scenario Manager:** add "Modest" (`B4` = 8) and "Ambitious" (`B4` = 15), then produce a Summary
 
 **Check yourself:** your pivot's category and year totals should match the `Pivot Result` sheet in `d1_m8_pivottables_answers.xlsx`.
 
