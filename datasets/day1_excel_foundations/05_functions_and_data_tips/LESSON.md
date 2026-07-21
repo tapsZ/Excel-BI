@@ -7,6 +7,8 @@ title: "Module 5 — Functions & Working with Data"
 **Day 1 · Afternoon · ~60 minutes**
 *Topics: Functions, Basic Tips for Working with Data*
 
+**📥 Practice files:** [Start workbook](d1_m5_functions_start.xlsx) · [Answer key](d1_m5_functions_answers.xlsx)
+
 ---
 
 ## Learn it

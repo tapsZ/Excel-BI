@@ -9,6 +9,8 @@ title: "Day 2 · Module 1 — Advanced Formulas: Lookups, Logic & Dynamic Arrays
 
 > **Prerequisite:** Day 1, especially [Module 4 — relative vs absolute references](../../day1_excel_foundations/04_formulas_fundamentals/LESSON.md). Every formula here depends on knowing when to lock a reference.
 
+**📥 Practice files:** [Start workbook](d2_m1_advanced_formulas_start.xlsx) · [Answer key](d2_m1_advanced_formulas_answers.xlsx)
+
 ---
 
 ## Learn it

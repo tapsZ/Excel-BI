@@ -9,6 +9,8 @@ title: "Module 8 — PivotTables & What-If Analysis"
 
 > **This module is the bridge to Day 2.** A PivotTable is Excel's version of the idea that Power BI is built entirely around: take detailed rows, group them, and summarise them — interactively. Understand the PivotTable and Power BI will feel familiar rather than foreign.
 
+**📥 Practice files:** [Start workbook](d1_m8_pivottables_start.xlsx) · [Answer key](d1_m8_pivottables_answers.xlsx)
+
 ---
 
 ## Learn it

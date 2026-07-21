@@ -7,6 +7,8 @@ title: "Module 3 — Multiple Worksheets & Navigation"
 **Day 1 · Morning · ~40 minutes**
 *Topics: Working with Multiple Worksheets, Freezing Panes and View Options*
 
+**📥 Practice files:** [Start workbook](d1_m3_worksheets_start.xlsx) · [Answer key](d1_m3_worksheets_answers.xlsx)
+
 ---
 
 ## Learn it

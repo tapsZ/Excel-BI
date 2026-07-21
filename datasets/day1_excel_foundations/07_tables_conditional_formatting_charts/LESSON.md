@@ -7,6 +7,8 @@ title: "Module 7 — Conditional Formatting & Charts"
 **Day 1 · Afternoon · ~40 minutes**
 *Topics: Conditional Formatting, Charts*
 
+**📥 Practice files:** [Start workbook](d1_m7_tables_charts_start.xlsx) · [Answer key](d1_m7_tables_charts_answers.xlsx)
+
 ---
 
 ## Learn it

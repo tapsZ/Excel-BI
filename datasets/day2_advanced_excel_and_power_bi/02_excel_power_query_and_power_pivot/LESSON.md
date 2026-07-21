@@ -9,6 +9,8 @@ title: "Day 2 · Module 2 — Power Query & Power Pivot in Excel"
 
 > **This module is the hinge of the whole course.** Power Query and the Data Model are not really Excel features — they are the *Power BI engine*, shipped inside Excel. Learn them here and you have already learned half of this afternoon.
 
+**📥 Practice file:** [Case study workbook](d2_m2_financial_dashboard_start.xlsx)
+
 ---
 
 ## Learn it

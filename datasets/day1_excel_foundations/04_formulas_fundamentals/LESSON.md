@@ -9,6 +9,8 @@ title: "Module 4 — Formulas Fundamentals"
 
 > **This is the most important module of Day 1.** Everything that follows — functions, PivotTables, Power Query, even DAX in Power BI on Day 2 — is built on the ideas here. Take your time.
 
+**📥 Practice files:** [Start workbook](d1_m4_formulas_start.xlsx) · [Answer key](d1_m4_formulas_answers.xlsx)
+
 ---
 
 ## Learn it

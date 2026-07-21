@@ -7,6 +7,8 @@ title: "Module 6 — Sorting, Filtering & Organizing Data"
 **Day 1 · Afternoon · ~45 minutes**
 *Topics: Sorting Data, Filtering Data, Groups and Subtotals*
 
+**📥 Practice files:** [Start workbook](d1_m6_sorting_start.xlsx) · [Answer key](d1_m6_sorting_answers.xlsx)
+
 ---
 
 ## Learn it

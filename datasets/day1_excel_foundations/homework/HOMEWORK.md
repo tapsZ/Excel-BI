@@ -6,6 +6,8 @@ title: "Day 1 Homework — The Branch Report"
 
 **Time: about 30 minutes · Do this before Day 2**
 
+**📥 Practice files:** [Start workbook](d1_homework_start.xlsx) · [Answer key](d1_homework_answers.xlsx)
+
 ---
 
 ## The brief

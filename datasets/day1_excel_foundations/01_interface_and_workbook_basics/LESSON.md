@@ -9,6 +9,8 @@ title: "Module 1 — Excel Interface & Workbook Basics"
 
 > **You need no prior Excel experience for this module.** If you have never opened Excel before, start here.
 
+**📥 Practice files:** [Start workbook](d1_m1_interface_start.xlsx) · [Answer key](d1_m1_interface_answers.xlsx)
+
 ---
 
 ## Learn it

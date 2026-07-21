@@ -7,6 +7,8 @@ title: "Module 2 — Formatting Cells & Numbers"
 **Day 1 · Morning · ~45 minutes**
 *Topics: Formatting Cells, Understanding Number Formats, Find & Replace, Checking Spelling, Page Layout and Printing*
 
+**📥 Practice files:** [Start workbook](d1_m2_formatting_start.xlsx) · [Answer key](d1_m2_formatting_answers.xlsx)
+
 ---
 
 ## Learn it
