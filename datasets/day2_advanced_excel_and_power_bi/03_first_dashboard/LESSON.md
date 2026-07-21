@@ -46,6 +46,12 @@ Down the left-hand edge:
 
 You will spend most of your time in Report view, but Model view is where the real thinking happens (Module 6).
 
+Those three views line up with the three *layers* your data passes through inside Desktop — and it all starts with **Power Query** importing and cleaning the messy source:
+
+![How data flows into Power BI Desktop: messy Data Sources are imported through Power Query (a cleaning pipeline) into the Data layer (clean tables), then the Model layer (relationships and DAX), then the Visual layer (charts).](../../../images/powerbi-desktop-layers.svg)
+
+*Left to right: raw **Sources** → **Import** → **Power Query** cleans them → the **Data layer** (the Table/Data view) holds the tidy tables → the **Model layer** (Model view) joins them and adds DAX → the **Visual layer** (Report view) draws the charts. Power Query is Module 5; Model & DAX are Module 6; Visuals are Day 3.*
+
 ### The screen in Report view
 
 - **Canvas** (centre) — where visuals go

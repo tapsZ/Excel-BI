@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 470" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="How data flows into Power BI Desktop: messy Data Sources are Imported through Power Query (a cleaning pipeline), landing as a clean table in the Data layer, then joined and calculated in the Model layer, and finally drawn as charts in the Visual layer.">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#F2A20C"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="470" fill="#ffffff"/>
+
+  <!-- LEFT: DATA SOURCES -->
+  <text x="175" y="40" text-anchor="middle" font-size="30" font-weight="700" fill="#252423">Data Sources</text>
+
+  <!-- database cylinder behind the messy table -->
+  <g>
+    <path d="M50 112 V402 a125 20 0 0 0 250 0 V112" fill="#eaf3fb" stroke="#7fb0d4" stroke-width="2.5"/>
+    <ellipse cx="175" cy="112" rx="125" ry="20" fill="#dbeaf5" stroke="#7fb0d4" stroke-width="2.5"/>
+  </g>
+  <!-- trash can -->
+  <g transform="translate(40,150)" stroke="#6b6f76" stroke-width="2" fill="#e9ecef">
+    <rect x="-11" y="0" width="22" height="24" rx="2"/>
+    <line x1="-14" y1="0" x2="14" y2="0"/>
+    <line x1="-5" y1="-5" x2="5" y2="-5"/>
+    <g stroke-width="1.4"><line x1="-4" y1="5" x2="-4" y2="19"/><line x1="0" y1="5" x2="0" y2="19"/><line x1="4" y1="5" x2="4" y2="19"/></g>
+  </g>
+
+  <!-- messy source table -->
+  <g>
+    <rect x="70" y="135" width="206" height="40" fill="#f7ddd3"/>
+    <rect x="70" y="255" width="206" height="40" fill="#fceceb"/>
+    <rect x="70" y="135" width="206" height="240" fill="none" stroke="#3b3a38" stroke-width="2"/>
+    <g stroke="#c8c3bf" stroke-width="1.3">
+      <line x1="70" y1="175" x2="276" y2="175"/><line x1="70" y1="215" x2="276" y2="215"/>
+      <line x1="70" y1="255" x2="276" y2="255"/><line x1="70" y1="295" x2="276" y2="295"/><line x1="70" y1="335" x2="276" y2="335"/>
+      <line x1="116" y1="135" x2="116" y2="375"/><line x1="174" y1="135" x2="174" y2="375"/><line x1="228" y1="135" x2="228" y2="375"/>
+    </g>
+    <line x1="70" y1="175" x2="276" y2="175" stroke="#3b3a38" stroke-width="1.8"/>
+    <g font-size="13" fill="#252423" text-anchor="middle">
+      <g font-weight="700"><text x="93" y="161">ID</text><text x="145" y="161">Name</text><text x="201" y="161">Sales</text><text x="252" y="161">Code</text></g>
+      <text x="93" y="200">1002</text><text x="145" y="200">John</text><text x="201" y="200" fill="#E0912B" font-weight="700">null</text><text x="252" y="200">$30</text>
+      <text x="93" y="240">1003</text><text x="145" y="240">MARIA</text><text x="201" y="240">35.8</text><text x="252" y="240">$15</text>
+      <g fill="#C4302B" font-weight="700"><text x="93" y="280">1004</text><text x="145" y="280">ERROR</text><text x="201" y="280">ERROR</text><text x="252" y="280">ERROR</text></g>
+      <text x="93" y="320">1003</text><text x="145" y="320">maria</text><text x="201" y="320">35.8</text><text x="252" y="320" fill="#E0912B" font-weight="700">null</text>
+      <text x="93" y="360">1005</text><text x="145" y="360" fill="#E0912B" font-weight="700">null</text><text x="201" y="360">40/40</text><text x="252" y="360" fill="#E0912B" font-weight="700">null</text>
+    </g>
+  </g>
+
+  <!-- IMPORT dashed arrow -->
+  <text x="367" y="235" text-anchor="middle" font-size="20" font-weight="600" fill="#252423">Import</text>
+  <path d="M305 262 H445" fill="none" stroke="#F2A20C" stroke-width="3.5" stroke-dasharray="3 9" stroke-linecap="round" marker-end="url(#ar)"/>
+  <g transform="translate(360,262)" fill="#e9ecef" stroke="#6b6f76" stroke-width="1.8"><rect x="-14" y="-8" width="12" height="16" rx="2"/><rect x="2" y="-8" width="12" height="16" rx="2"/></g>
+
+  <!-- POWER QUERY (dashed container) -->
+  <rect x="470" y="120" width="250" height="315" rx="6" fill="none" stroke="#b9bec6" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="595" y="175" text-anchor="middle" font-size="27" font-weight="700" fill="#252423">Power</text>
+  <text x="595" y="205" text-anchor="middle" font-size="27" font-weight="700" fill="#252423">Query</text>
+  <!-- pipeline tube -->
+  <g>
+    <rect x="490" y="250" width="185" height="70" rx="8" fill="#fdf3d0" stroke="#e0c46a" stroke-width="2.5"/>
+    <ellipse cx="675" cy="285" rx="13" ry="35" fill="#f6e6a4" stroke="#e0c46a" stroke-width="2.5"/>
+    <ellipse cx="490" cy="285" rx="13" ry="35" fill="#fdf3d0" stroke="#e0c46a" stroke-width="2.5"/>
+    <text x="588" y="293" text-anchor="middle" font-size="23" font-weight="700" fill="#252423">Pipeline</text>
+  </g>
+  <!-- gear -->
+  <g transform="translate(700,340)" fill="#c7ccd3" stroke="#6b6f76" stroke-width="2">
+    <path d="M0-26 6-24 8-32 16-30 15-22 22-18 28-24 34-16 27-11 29-3 37 0 35 8 27 8 24 15 30 21 22 28 16 22 8 25 8 33 0 31 -3 26z" transform="scale(0.5)"/>
+    <circle r="5.5" fill="#fff"/>
+  </g>
+
+  <!-- arrow Power Query -> Desktop -->
+  <path d="M690 286 H763" fill="none" stroke="#F2A20C" stroke-width="4.5" stroke-linecap="round" marker-end="url(#ar)"/>
+
+  <!-- POWER BI DESKTOP -->
+  <g transform="translate(880,26)">
+    <rect x="0" y="14" width="11" height="26" rx="2" fill="#F2C811"/>
+    <rect x="14" y="6" width="11" height="34" rx="2" fill="#F2C811"/>
+    <rect x="28" y="0" width="11" height="40" rx="2" fill="#E6A700"/>
+    <text x="50" y="34" font-size="29" font-weight="700" fill="#252423">Power BI Desktop</text>
+  </g>
+  <rect x="770" y="96" width="612" height="344" rx="14" fill="#ffffff" stroke="#d9dce1" stroke-width="2.5"/>
+  <g stroke="#d0d4da" stroke-width="2" stroke-dasharray="4 7">
+    <line x1="1002" y1="120" x2="1002" y2="416"/>
+    <line x1="1198" y1="120" x2="1198" y2="416"/>
+  </g>
+
+  <!-- Data layer -->
+  <text x="888" y="160" text-anchor="middle" font-size="24" font-weight="800" fill="#252423">DATA</text>
+  <text x="888" y="182" text-anchor="middle" font-size="15" font-weight="600" fill="#787c83">Layer</text>
+  <text x="936" y="152" font-size="18" fill="#F2C811">&#10022;</text>
+  <g>
+    <rect x="800" y="205" width="182" height="34" fill="#d8f0dd"/>
+    <rect x="800" y="205" width="182" height="170" fill="none" stroke="#3b3a38" stroke-width="2"/>
+    <g stroke="#c8c3bf" stroke-width="1.4">
+      <line x1="800" y1="239" x2="982" y2="239"/><line x1="800" y1="284" x2="982" y2="284"/><line x1="800" y1="330" x2="982" y2="330"/>
+      <line x1="858" y1="205" x2="858" y2="375"/><line x1="922" y1="205" x2="922" y2="375"/>
+    </g>
+    <line x1="800" y1="239" x2="982" y2="239" stroke="#3b3a38" stroke-width="1.8"/>
+    <g font-size="15" fill="#252423" text-anchor="middle">
+      <g font-weight="700"><text x="829" y="228">ID</text><text x="890" y="228">Name</text><text x="952" y="228">Price</text></g>
+      <text x="829" y="266">1002</text><text x="890" y="266">John</text><text x="952" y="266">30</text>
+      <text x="829" y="311">1003</text><text x="890" y="311">Mario</text><text x="952" y="311">40</text>
+      <text x="829" y="357">1005</text><text x="890" y="357">N/A</text><text x="952" y="357">50</text>
+    </g>
+  </g>
+
+  <!-- Model layer -->
+  <text x="1100" y="160" text-anchor="middle" font-size="24" font-weight="800" fill="#252423">MODEL</text>
+  <text x="1100" y="182" text-anchor="middle" font-size="15" font-weight="600" fill="#787c83">Layer</text>
+  <g>
+    <rect x="1083" y="255" width="34" height="46" rx="3" fill="#fbfcfd" stroke="#6b6f76" stroke-width="2"/>
+    <g stroke="#b7bcc3" stroke-width="1.4"><line x1="1089" y1="266" x2="1111" y2="266"/><line x1="1089" y1="274" x2="1111" y2="274"/><line x1="1089" y1="282" x2="1111" y2="282"/><line x1="1089" y1="290" x2="1105" y2="290"/></g>
+    <g fill="#eef3f8" stroke="#8a8f96" stroke-width="1.8">
+      <rect x="1035" y="238" width="26" height="20" rx="2"/><rect x="1139" y="238" width="26" height="20" rx="2"/>
+      <rect x="1035" y="298" width="26" height="20" rx="2"/><rect x="1139" y="298" width="26" height="20" rx="2"/>
+    </g>
+    <g stroke="#118DFF" stroke-width="1.8">
+      <line x1="1061" y1="250" x2="1083" y2="266"/><line x1="1139" y1="250" x2="1117" y2="266"/>
+      <line x1="1061" y1="306" x2="1083" y2="290"/><line x1="1139" y1="306" x2="1117" y2="290"/>
+    </g>
+    <text x="1055" y="228" text-anchor="middle" font-size="15" font-style="italic" font-weight="700" fill="#118DFF">f(x)</text>
+    <text x="1150" y="228" font-size="13" fill="#9aa0a6">&#931;</text>
+    <text x="1055" y="340" text-anchor="middle" font-size="15" font-style="italic" font-weight="700" fill="#118DFF">f(x)</text>
+    <text x="1150" y="338" font-size="13" fill="#9aa0a6">&#8730;</text>
+  </g>
+
+  <!-- Visual layer -->
+  <text x="1290" y="160" text-anchor="middle" font-size="24" font-weight="800" fill="#252423">VISUAL</text>
+  <text x="1290" y="182" text-anchor="middle" font-size="15" font-weight="600" fill="#787c83">Layer</text>
+  <g>
+    <line x1="1232" y1="352" x2="1352" y2="352" stroke="#3b3a38" stroke-width="2.2"/>
+    <rect x="1246" y="302" width="26" height="50" fill="#cfe0f2" stroke="#3b3a38" stroke-width="1.8"/>
+    <rect x="1279" y="240" width="26" height="112" fill="#a9cdee" stroke="#3b3a38" stroke-width="1.8"/>
+    <rect x="1312" y="282" width="26" height="70" fill="#cfe0f2" stroke="#3b3a38" stroke-width="1.8"/>
+    <g font-size="15" font-weight="700" fill="#252423" text-anchor="middle"><text x="1259" y="295">2</text><text x="1292" y="233">5</text><text x="1325" y="275">3</text></g>
+  </g>
+
+  <!-- orange arrows between the three layers -->
+  <path d="M986 300 q30 18 62 6" fill="none" stroke="#F2A20C" stroke-width="4" stroke-linecap="round" marker-end="url(#ar)"/>
+  <path d="M1170 268 q34 -14 62 -4" fill="none" stroke="#F2A20C" stroke-width="4" stroke-linecap="round" marker-end="url(#ar)"/>
+</svg>
