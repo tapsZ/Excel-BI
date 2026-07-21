@@ -170,7 +170,7 @@ Look at what has been built: three separate tables joined into one enriched view
 
 On the `Dynamic Arrays` sheet, click the top-left cell of each result block. One formula; many rows of output. Click a cell *below* it — empty formula bar, because that cell is spill output.
 
-> **The idea to carry into this afternoon:** what you just did with `XLOOKUP` — joining Orders to Products and Customers — is precisely what Power BI does with a **relationship**. There, you draw a line between two tables once, and every visual honours it. No formula copied down 25 rows. Same concept, less work.
+> **The idea to carry into this afternoon:** what you just did with `XLOOKUP` — joining Orders to Products and Customers — is precisely what Power BI does with a **relationship**. There, you draw a line between two tables once, and every visual honours it. No formula copied down 20 rows. Same concept, less work.
 
 ---
 

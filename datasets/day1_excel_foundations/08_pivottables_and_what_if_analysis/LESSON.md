@@ -17,7 +17,7 @@ title: "Module 8 — PivotTables & What-If Analysis"
 
 ### The problem
 
-You have 100 orders. Nobody wants to read 100 rows. They want to know: *which category earns the most, and is it growing?*
+You have 20 orders. Even 20 rows is slow to total by hand — category by category, year by year — and real data has thousands. They want to know: *which category earns the most, and is it growing?*
 
 You could answer that with `SUMIF` — one formula per category, rewritten every time someone asks a slightly different question. A PivotTable answers all such questions by dragging fields.
 
@@ -93,11 +93,11 @@ You know the answer you want. You want to know the input that produces it.
 
 ```
 Set cell:      B13   (the result you care about)
-To value:      16000 (the answer you want)
+To value:      3000  (the answer you want)
 By changing:   B5    (the input Excel may adjust)
 ```
 
-Excel works backwards and finds the value. "We need $16,000 profit — what price increase gets us there?"
+Excel works backwards and finds the value. "We need $3,000 profit — what price increase gets us there?"
 
 Three requirements:
 
@@ -127,7 +127,7 @@ Open `d1_m8_pivottables_answers.xlsx`. Three sheets.
 
 ### `Orders`
 
-All 100 orders. Note the extra **Year** and **Month** columns — derived from the order date so they can be used as pivot fields. Pivots group by whatever columns exist, so adding a Year column up front is a small piece of preparation that pays off immediately. (In Power BI a proper date table does this job, as you will see on Day 2.)
+All 20 orders. Note the extra **Year** and **Month** columns — derived from the order date so they can be used as pivot fields. Pivots group by whatever columns exist, so adding a Year column up front is a small piece of preparation that pays off immediately. (In Power BI a proper date table does this job, as you will see on Day 2.)
 
 ### `Pivot Result`
 
@@ -136,7 +136,7 @@ This shows the numbers **your PivotTable should produce**: total sales by catego
 It is built with `SUMIFS` rather than an actual PivotTable, deliberately — so you can click a cell and see the logic:
 
 ```
-=SUMIFS(Orders!$J$2:$J$101, Orders!$H$2:$H$101, $A5, Orders!$C$2:$C$101, 2024)
+=SUMIFS(Orders!$J$2:$J$21, Orders!$H$2:$H$21, $A5, Orders!$C$2:$C$21, 2024)
 ```
 
 Read it as: *add up column J (Sales), where column H (Category) matches the category on this row, and column C (Year) is 2024.*
@@ -145,7 +145,7 @@ Read it as: *add up column J (Sales), where column H (Category) matches the cate
 
 **This is exactly what a PivotTable does internally.** Every cell in a pivot is a conditional sum, one per row/column intersection. The pivot writes those for you when you drag. Once you have seen that, a PivotTable stops being magic.
 
-Note the absolute references (`$J$2:$J$101`) so the formula can be copied across the grid, and the relative `$A5` so each row picks up its own category — relative and absolute from Module 4, doing exactly the job they were introduced for.
+Note the absolute references (`$J$2:$J$21`) so the formula can be copied across the grid, and the relative `$A5` so each row picks up its own category — relative and absolute from Module 4, doing exactly the job they were introduced for.
 
 ### `What-If`
 
@@ -186,7 +186,7 @@ Open **`d1_m8_pivottables_start.xlsx`** and follow the `Instructions` sheet.
 
 **Part C — What-If**
 10. On the `What-If` sheet, change `B5` and watch the results
-11. **Goal Seek:** set `B13` to `16000` by changing `B5` — the answer is about **10%**
+11. **Goal Seek:** set `B13` to `3000` by changing `B5` — the answer is about **7%**
 12. **Scenario Manager:** add "Cautious" (3%) and "Aggressive" (12%), then produce a Summary
 
 **Check yourself:** your pivot's category and year totals should match the `Pivot Result` sheet in `d1_m8_pivottables_answers.xlsx`.
@@ -217,7 +217,7 @@ Open **`d1_m8_pivottables_start.xlsx`** and follow the `Instructions` sheet.
 
 ## You have finished Day 1
 
-Look at what you can now do. You started by typing into a cell. You can now clean and format a dataset, write formulas that reference each other, use conditional functions, sort and filter and subtotal, apply conditional formatting and build charts, summarise a hundred records with a PivotTable, and work backwards from a target with Goal Seek.
+Look at what you can now do. You started by typing into a cell. You can now clean and format a dataset, write formulas that reference each other, use conditional functions, sort and filter and subtotal, apply conditional formatting and build charts, summarise every order with a PivotTable, and work backwards from a target with Goal Seek.
 
 **Now do the [Day 1 homework](../homework/HOMEWORK.md)** — a fresh dataset and about 30 minutes to prove all of it sticks.
 

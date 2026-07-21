@@ -56,7 +56,7 @@ A chart turns numbers into a picture. Choosing the *right* picture is most of th
 
 ### Charts need summarised data
 
-You cannot usefully chart 45 individual order rows. First summarise — with `SUMIF` (Module 5), subtotals (Module 6), or a PivotTable (Module 8) — then chart the summary. Chart the five category totals, not the forty-five orders.
+You cannot usefully chart 20 individual order rows. First summarise — with `SUMIF` (Module 5), subtotals (Module 6), or a PivotTable (Module 8) — then chart the summary. Chart the five category totals, not the twenty orders.
 
 ### Making a chart readable
 
@@ -76,7 +76,7 @@ Open `d1_m7_tables_charts_answers.xlsx`.
 
 ### Sheet `Orders`
 
-Plain order data — 45 rows — with three conditional formatting rules live on it:
+Plain order data — 20 rows — with three conditional formatting rules live on it:
 
 - **Data Bars** on Sales — instant visual comparison of order sizes
 - **A green-yellow-red colour scale** on Quantity
@@ -127,7 +127,7 @@ Open **`d1_m7_tables_charts_start.xlsx`** and follow the `Instructions` sheet:
 | Every cell is coloured | Threshold too low, or overlapping rules | Manage Rules → adjust or delete |
 | Colour didn't change when I edited a number | The cell is outside the rule's range | Manage Rules → widen "Applies to" |
 | Chart is empty | Headers were not included in the selection | Reselect including row 1 |
-| Chart shows 45 bars | You charted raw rows, not a summary | Summarise first, then chart |
+| Chart shows 20 bars | You charted raw rows, not a summary | Summarise first, then chart |
 | Pie is unreadable | Too many slices | Use a bar chart, or group small categories |
 
 ---
@@ -136,7 +136,7 @@ Open **`d1_m7_tables_charts_start.xlsx`** and follow the `Instructions` sheet:
 
 1. What does "the rule is live" mean for conditional formatting?
 2. Why should you use only two or three conditional-formatting rules on a sheet?
-3. Why can't you chart 45 individual order rows directly — what do you do first?
+3. Why can't you chart 20 individual order rows directly — what do you do first?
 4. When is a pie chart a reasonable choice — and when is it not?
 5. Why is starting a bar chart's value axis above zero misleading?
 

@@ -142,7 +142,7 @@ Look in **`source_files/`**:
 
 | File | Purpose |
 |---|---|
-| `orders_2024.csv`, `orders_2025.csv`, `orders_2026.csv` | 100 orders split by year — the **append** and **folder combine** exercise |
+| `orders_2024.csv`, `orders_2025.csv`, `orders_2026.csv` | 20 orders split by year — the **append** and **folder combine** exercise |
 | `products.csv`, `customers.csv` | Lookup tables — the **merge** exercise |
 | `orders_messy.csv` | Deliberately dirty — the **cleaning** exercise |
 | `sales_by_month_wide.csv` | Six month-columns — the **unpivot** exercise |
@@ -180,7 +180,7 @@ Import `orders_messy.csv` (Data → Get Data → From Text/CSV → **Transform D
 
 ### Exercise 2 — Append (~10 min)
 
-Import all three `orders_20xx.csv` files, then Home → Append Queries → Three or more tables. 100 rows from three files.
+Import all three `orders_20xx.csv` files, then Home → Append Queries → Three or more tables. 20 rows from three files.
 
 **Then do it the better way:** delete those queries and use **From Folder** on `source_files`, filtering to just the `orders_20xx` files. Same result, and it picks up next year's file automatically.
 

@@ -108,18 +108,18 @@ That second behaviour is genuinely clever, and it is why Excel uses `SUBTOTAL` h
 
 Open `d1_m6_sorting_answers.xlsx`, sheet `Orders`.
 
-The 45 orders are sorted by **Category** (A→Z), and within each category by **Sales** (largest first). Under each category sits a shaded total row, and a gold grand total at the very bottom.
+The 20 orders are sorted by **Category** (A→Z), and within each category by **Sales** (largest first). Under each category sits a shaded total row, and a gold grand total at the very bottom.
 
-Click the **Laptop Total** in column H (row 14). The formula bar shows:
-
-```
-=SUBTOTAL(9,H2:H13)
-```
-
-Now click the grand total (row 52):
+Click the **Laptop Total** in column H (row 6). The formula bar shows:
 
 ```
-=SUBTOTAL(9,H2:H51)
+=SUBTOTAL(9,H2:H5)
+```
+
+Now click the grand total (row 27):
+
+```
+=SUBTOTAL(9,H2:H26)
 ```
 
 Look carefully at that range — it spans the *whole* table, all five category subtotal rows included. Yet the grand total is correct, not double. That is `SUBTOTAL` ignoring its own kind.

@@ -81,7 +81,7 @@ A common mistake is selecting the row you want frozen. Select the cell *below an
 
 Open `d1_m3_worksheets_answers.xlsx`.
 
-There are seven sheets. `All Orders` holds the 40 source orders, sorted by category. Then one colour-coded sheet per category — `Laptop`, `Smartphone`, `Tablet`, `Accessory`, `Smart Home` — each holding only its own orders. Finally, `Summary`.
+There are seven sheets. `All Orders` holds the 20 source orders, sorted by category. Then one colour-coded sheet per category — `Laptop`, `Smartphone`, `Tablet`, `Accessory`, `Smart Home` — each holding only its own orders. Finally, `Summary`.
 
 Go to the **Summary** sheet and click cell `B2`. The formula bar shows:
 

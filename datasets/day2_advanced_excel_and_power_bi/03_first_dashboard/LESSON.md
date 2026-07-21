@@ -126,7 +126,7 @@ Work through it in this order:
 
 **2. Model view.** There is a relationship between `customers` and `orders` on `customer_id`. Hover over the connecting line: `1` at the customers end, `*` at the orders end — **one customer, many orders**.
 
-That line is doing the job of an `XLOOKUP`. It was drawn once, and now *every* visual can show customer attributes against order measures without a single formula. Compare that with copying a lookup down 100 rows in Module 1.
+That line is doing the job of an `XLOOKUP`. It was drawn once, and now *every* visual can show customer attributes against order measures without a single formula. Compare that with copying a lookup down 20 rows in this morning’s advanced-formulas module.
 
 **3. Report view.** Look at how each visual is put together — click one and watch the Visualizations pane show which field sits in which well.
 

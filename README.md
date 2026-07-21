@@ -55,7 +55,7 @@ A single running dataset — **NovaTech Retail**, a consumer electronics busines
 8. [PivotTables & What-If Analysis](datasets/day1_excel_foundations/08_pivottables_and_what_if_analysis/LESSON.md)
 
 **Homework:** [The Branch Report](datasets/day1_excel_foundations/homework/HOMEWORK.md)
-**Outcome:** confidently navigate Excel, write your own formulas, and summarise a hundred records into a decision-ready report.
+**Outcome:** confidently navigate Excel, write your own formulas, and summarise every order into a decision-ready report.
 
 ---
 

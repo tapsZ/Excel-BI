@@ -54,7 +54,7 @@ All eight modules use the **same dataset** — NovaTech Retail's order log (lapt
 
 ## Homework
 
-**[The Branch Report](homework/HOMEWORK.md)** — about 30 minutes. A fresh 35-order dataset to format, calculate, summarise and chart. Answer key included, with every figure as a live formula you can inspect.
+**[The Branch Report](homework/HOMEWORK.md)** — about 30 minutes. A fresh 12-order dataset to format, calculate, summarise and chart. Answer key included, with every figure as a live formula you can inspect.
 
 **Files:** [d1_homework_start.xlsx](homework/d1_homework_start.xlsx) · [d1_homework_answers.xlsx](homework/d1_homework_answers.xlsx)
 
@@ -62,7 +62,7 @@ All eight modules use the **same dataset** — NovaTech Retail's order log (lapt
 
 ## Expected outcome
 
-By the end of Day 1 you can confidently navigate Excel, write your own formulas, use conditional functions, and summarise a hundred records into a decision-ready report with a PivotTable.
+By the end of Day 1 you can confidently navigate Excel, write your own formulas, use conditional functions, and summarise every order into a decision-ready report with a PivotTable.
 
 ---
 

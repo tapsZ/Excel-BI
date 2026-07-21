@@ -10,7 +10,7 @@ title: "Day 1 Homework — The Branch Report"
 
 ## The brief
 
-You have just been sent the order log for one of NovaTech Retail's branches — 35 orders, exported straight from the system and completely unformatted.
+You have just been sent the order log for one of NovaTech Retail's branches — 12 orders, exported straight from the system and completely unformatted.
 
 Your regional manager wants **a one-page summary they can actually read**, and answers to a few questions, by tomorrow morning.
 
@@ -88,7 +88,7 @@ The `Branch Orders` sheet shows one reasonable way to have formatted the data.
 | Q7 returns `0` | The `"<>Zimbabwe"` criteria needs the `<>` **inside** the quotes |
 | Everything labelled `Medium` | Your nested `IF` tests 300 before 1000 — reverse them |
 | Pivot shows Count where you wanted Sum | Right-click the value → Summarize Values By → Sum |
-| Q1 doesn't match the key | Your `SUM` range missed a row — it should cover rows 2 to 36 |
+| Q1 doesn't match the key | Your `SUM` range missed a row — it should cover rows 2 to 13 |
 | Answers didn't change when you edited data | The pivot needs a manual **Refresh** |
 
 ---
