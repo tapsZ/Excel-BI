@@ -123,6 +123,30 @@ The three boxes, in plain words:
 
 Two rules that follow from this: the **Set cell** must contain a formula, and the **By changing** cell must be a plain number that actually feeds into that formula. Goal Seek changes one input to hit one target — that is its limit, and within it, it is excellent.
 
+### Now on real data — where Goal Seek earns its keep
+
+The laptop example was easy: you could do it in your head. Here's the version you can't.
+
+Lower down on the same `What-If` sheet is a second little model that uses **our actual order data**:
+
+| Cell | Meaning | Holds |
+|---|---|---|
+| `B12` | Current total sales | `=SUM(Orders!J2:J21)` — this adds the Sales column on the **Orders sheet**, giving our real total of **$17,640** |
+| `B13` | Sales growth | a plain number (a %, starts at 0) |
+| `B14` | **Projected total** | `=B12*(1+B13)` |
+
+Management wants total sales of **$20,000**. If every sale grew by the same percentage, *what growth rate hits the target?*
+
+You can't do `20,000 ÷ 17,640` in your head — but Goal Seek can:
+
+```
+Set cell:      B14      (Projected total — the formula)
+To value:      20000    (the target)
+By changing:   B13      (Sales growth — the plain-number input)
+```
+
+Excel finds **about 13.4%**. That is the point of Goal Seek: on real numbers, with no tidy answer, it works backwards to the exact input in a second.
+
 ### Scenario Manager
 
 Save several named sets of input values and switch between them.
@@ -172,6 +196,8 @@ A tiny, self-contained planner — everything is on this one sheet:
 
 Change `B4` (laptops) and watch `B7` (total sales) update — that's the *forward* direction. Then use Goal Seek to run it *backwards*: set `B7` to `10000` and let Excel find the laptops (`B4` = 10). One multiplication, so you can check it in your head: 10 × 1,000 = 10,000.
 
+Lower down, a second block uses the **real order total**: `B12` = `=SUM(Orders!J2:J21)` = $17,640, `B13` a growth %, `B14` the projected total. Goal Seek there sets `B14` to `20000` by changing `B13` and lands on **~13.4%** — the answer you couldn't have guessed.
+
 ---
 
 ## Do it — practice
@@ -193,8 +219,9 @@ Open **`d1_m8_pivottables_start.xlsx`** and follow the `Instructions` sheet.
 
 **Part C — What-If (all on the `What-If` sheet)**
 10. Change `B4` (laptops to sell) and watch `B7` (total sales) update — the forward direction
-11. **Goal Seek:** set `B7` to `10000` by changing `B4` — the answer is `10`
-12. **Scenario Manager:** add "Modest" (`B4` = 8) and "Ambitious" (`B4` = 15), then produce a Summary
+11. **Goal Seek (simple):** set `B7` to `10000` by changing `B4` — the answer is `10`
+12. **Goal Seek (real data):** lower down, set `B14` to `20000` by changing `B13` — the answer is about **13.4%**
+13. **Scenario Manager:** add "Modest" (`B4` = 8) and "Ambitious" (`B4` = 15), then produce a Summary
 
 **Check yourself:** your pivot's category and year totals should match the `Pivot Result` sheet in `d1_m8_pivottables_answers.xlsx`.
 
