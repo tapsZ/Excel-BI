@@ -41,6 +41,14 @@ Power Query is an **ETL** tool — **E**xtract, **T**ransform, **L**oad. Messy d
 
 **Order matters.** The steps run **top to bottom**, each one working on the result of the one before — so you connect first and tidy last. Change the source data and the whole pipeline replays in the same order.
 
+### Real-world alternatives
+
+Power Query is the data-prep pipeline for **one analyst, solo or in a small team**. At enterprise scale the *same job* — clean, layered data, often a **Bronze → Silver → Gold** "medallion" pipeline — is built by a dedicated **data engineer** in a heavier tool like **Databricks**, then handed to Power BI for a whole data team:
+
+![Two ways to do the same job. Enterprise scale: a data engineer prepares data in a tool like Databricks (Bronze, Silver, Gold pipeline) into a data product for a whole data team, visualised in Power BI. Solo or small team: you do the same preparation in Power Query and visualise it yourself in Power BI.](../../../images/data-prep-alternatives.svg)
+
+You're learning the solo version — but the shape (**extract → clean in layers → load → visualise**) is exactly what the big tools do too.
+
 ### Where to find it
 
 **Data** tab → **Get Data** (older versions: "Get & Transform"). Sources include Excel files, CSV, folders, databases, the web, JSON, and many more.

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1660 760" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="Two ways to do the same job. Enterprise scale: a data engineer prepares data in a tool like Databricks (Bronze, Silver, Gold pipeline) into a data product, which Power BI visualises for a whole data team. Solo or small team: you do the same preparation in Power Query, then visualise in Power BI yourself.">
+  <defs>
+    <marker id="ao" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#F2A20C"/></marker>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#D9302A"/></marker>
+    <!-- sources column -->
+    <g id="src">
+      <g fill="#dbeaf5" stroke="#7fb0d4" stroke-width="2"><ellipse cx="78" cy="18" rx="24" ry="7"/><path d="M54 18 V46 a24 7 0 0 0 48 0 V18"/></g><text x="40" y="34" text-anchor="end" font-size="15" font-weight="700" fill="#252423">DB</text>
+      <g stroke="#6b6f76" stroke-width="2" fill="#eef3f8"><rect x="62" y="70" width="38" height="28" rx="2"/><rect x="56" y="76" width="38" height="28" rx="2"/><line x1="56" y1="86" x2="82" y2="86" stroke-width="1.2"/></g><text x="40" y="96" text-anchor="end" font-size="15" font-weight="700" fill="#252423">Files</text>
+      <g stroke="#118DFF" stroke-width="2" fill="#cfe0f2"><circle cx="66" cy="150" r="7"/><circle cx="98" cy="140" r="7"/><circle cx="100" cy="164" r="7"/><line x1="73" y1="150" x2="91" y2="143" stroke-width="1.6"/><line x1="72" y1="154" x2="94" y2="162" stroke-width="1.6"/></g><text x="40" y="156" text-anchor="end" font-size="15" font-weight="700" fill="#252423">Kafka</text>
+      <g transform="translate(78,214)" fill="#cfe0f2" stroke="#118DFF" stroke-width="2"><path d="M0-26 6-24 8-32 16-30 15-22 22-18 28-24 34-16 27-11 29-3 37 0 35 8 27 8 24 15 30 21 22 28 16 22 8 25 8 33 0 31 -3 26z" transform="scale(0.5)"/><circle r="6" fill="#fff"/></g><text x="40" y="220" text-anchor="end" font-size="15" font-weight="700" fill="#252423">API</text>
+    </g>
+    <!-- data product -->
+    <g id="dp">
+      <text x="92" y="2" font-size="20" fill="#F2C811">&#10022;</text>
+      <rect x="0" y="10" width="104" height="90" fill="#fff" stroke="#3b3a38" stroke-width="1.8"/>
+      <g stroke="#c8c3bf" stroke-width="1.2"><line x1="0" y1="34" x2="104" y2="34"/><line x1="0" y1="56" x2="104" y2="56"/><line x1="0" y1="78" x2="104" y2="78"/><line x1="34" y1="10" x2="34" y2="100"/><line x1="70" y1="10" x2="70" y2="100"/></g>
+      <rect x="1" y="34" width="33" height="22" fill="#d8f0dd"/><rect x="35" y="56" width="34" height="22" fill="#eef7f0"/>
+    </g>
+    <!-- power bi window -->
+    <g id="pbi">
+      <rect x="0" y="0" width="300" height="196" rx="6" fill="#ffffff" stroke="#3b3a38" stroke-width="2"/>
+      <rect x="0" y="0" width="300" height="16" rx="6" fill="#f4c542"/>
+      <rect x="26" y="46" width="14" height="44" fill="#a9cdee" stroke="#3b3a38" stroke-width="1.3"/><rect x="44" y="30" width="14" height="60" fill="#118DFF" stroke="#3b3a38" stroke-width="1.3"/><rect x="62" y="54" width="14" height="36" fill="#a9cdee" stroke="#3b3a38" stroke-width="1.3"/>
+      <path d="M118 60 L146 40 L174 54 L206 30" fill="none" stroke="#C13584" stroke-width="2.5" stroke-linejoin="round"/><path d="M200 30 L208 28 L206 37" fill="none" stroke="#C13584" stroke-width="2.5"/>
+      <rect x="248" y="34" width="40" height="120" fill="none" stroke="#3b3a38" stroke-width="1.6"/><g stroke="#c7ccd3" stroke-width="2"><line x1="255" y1="52" x2="281" y2="52"/><line x1="255" y1="72" x2="281" y2="72"/><line x1="255" y1="92" x2="281" y2="92"/><line x1="255" y1="112" x2="281" y2="112"/></g>
+      <circle cx="52" cy="150" r="24" fill="none" stroke="#118DFF" stroke-width="6"/><path d="M52 150 L52 126 A24 24 0 0 1 74 158 z" fill="#4caf6a"/>
+      <rect x="118" y="110" width="130" height="70" fill="none" stroke="#3b3a38" stroke-width="1.6"/><g stroke="#c7ccd3" stroke-width="2"><line x1="118" y1="132" x2="248" y2="132"/><line x1="118" y1="156" x2="248" y2="156"/><line x1="162" y1="110" x2="162" y2="180"/><line x1="205" y1="110" x2="205" y2="180"/></g>
+    </g>
+    <g id="head" stroke="#3b3a38" stroke-width="2" fill="none"><circle cx="0" cy="0" r="16" fill="#fff"/><circle cx="-5" cy="-2" r="3" fill="#3b3a38"/><circle cx="5" cy="-2" r="3" fill="#3b3a38"/><path d="M-7 8 q7 5 14 0"/><path d="M-10 21 L0 15 L10 21" fill="#8a2b4a" stroke="#8a2b4a"/></g>
+  </defs>
+
+  <rect width="1660" height="760" fill="#ffffff"/>
+
+  <!-- ===== ROW 1: ENTERPRISE ===== -->
+  <text x="30" y="34" font-size="21" font-weight="800" fill="#252423">Enterprise scale <tspan font-weight="600" fill="#6c6f76" font-size="16">— a data engineer builds the pipeline in a tool like Databricks</tspan></text>
+  <use href="#src" x="20" y="70"/>
+  <g stroke="#F2A20C" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M128 95 L214 118" marker-end="url(#ao)"/><path d="M128 168 L214 158" marker-end="url(#ao)"/><path d="M128 224 L214 200" marker-end="url(#ao)"/><path d="M128 288 L214 240" marker-end="url(#ao)"/>
+  </g>
+  <rect x="226" y="66" width="340" height="220" rx="10" fill="#fbfcfd" stroke="#d9dce1" stroke-width="2"/>
+  <!-- medallion -->
+  <g><g fill="#e7d3bf" stroke="#b08a5e" stroke-width="2"><ellipse cx="296" cy="112" rx="30" ry="9"/><path d="M266 112 V150 a30 9 0 0 0 60 0 V112"/></g><text x="296" y="136" text-anchor="middle" font-size="12" font-weight="700" fill="#7a5a35">Bronze</text>
+    <g fill="#e3e7ea" stroke="#9aa2ab" stroke-width="2"><ellipse cx="396" cy="112" rx="30" ry="9"/><path d="M366 112 V150 a30 9 0 0 0 60 0 V112"/></g><text x="396" y="136" text-anchor="middle" font-size="12" font-weight="700" fill="#6a727b">Silver</text>
+    <g fill="#f6e6a4" stroke="#d4b23f" stroke-width="2"><ellipse cx="496" cy="112" rx="30" ry="9"/><path d="M466 112 V150 a30 9 0 0 0 60 0 V112"/></g><text x="496" y="136" text-anchor="middle" font-size="12" font-weight="700" fill="#8a6d16">Gold</text>
+    <path d="M328 130 H364" stroke="#D9302A" stroke-width="4" marker-end="url(#arr)"/><path d="M428 130 H464" stroke="#D9302A" stroke-width="4" marker-end="url(#arr)"/>
+  </g>
+  <rect x="254" y="192" width="284" height="46" rx="10" fill="#cfe0f2" stroke="#118DFF" stroke-width="2"/><ellipse cx="538" cy="215" rx="9" ry="23" fill="#b7d3ef" stroke="#118DFF" stroke-width="2"/><text x="392" y="222" text-anchor="middle" font-size="18" font-weight="700" fill="#1c4f80">Pipeline</text>
+  <g transform="translate(250,262)"><rect x="0" y="-4" width="16" height="16" rx="2" fill="#EE4B2B"/><rect x="5" y="0" width="16" height="16" rx="2" fill="#F1592A" opacity="0.85"/><rect x="10" y="4" width="16" height="16" rx="2" fill="#F47C3C" opacity="0.8"/></g>
+  <text x="288" y="278" font-size="18" font-weight="700" fill="#252423">Databricks</text>
+  <use href="#dp" x="590" y="118"/><text x="642" y="248" text-anchor="middle" font-size="15" font-weight="600" fill="#6c6f76">Data Product</text>
+  <path d="M566 176 q14 -6 22 -8" fill="none" stroke="#F2A20C" stroke-width="4" stroke-linecap="round" marker-end="url(#ao)"/>
+  <path d="M700 168 q20 -4 34 0" fill="none" stroke="#F2A20C" stroke-width="4" stroke-linecap="round" marker-end="url(#ao)"/>
+  <use href="#pbi" x="740" y="70"/>
+  <g transform="translate(770,272)"><rect x="0" y="12" width="10" height="22" rx="2" fill="#F2C811"/><rect x="13" y="6" width="10" height="28" rx="2" fill="#F2C811"/><rect x="26" y="0" width="10" height="34" rx="2" fill="#E6A700"/></g>
+  <text x="826" y="300" font-size="20" font-weight="700" fill="#252423">Power BI</text>
+  <use href="#head" x="1110" y="118"/><use href="#head" x="1160" y="112"/><use href="#head" x="1210" y="118"/>
+  <rect x="1090" y="150" width="140" height="26" rx="3" fill="#f6efd0" stroke="#d8c98a"/><text x="1160" y="169" text-anchor="middle" font-size="15" font-weight="700" fill="#252423">A whole data team</text>
+  <!-- phase labels -->
+  <g font-size="18" font-weight="700" fill="#252423" text-anchor="middle">
+    <text x="396" y="332">Data Preparation</text><rect x="300" y="340" width="192" height="4" rx="2" fill="#F2C811"/>
+    <text x="900" y="332">Data Visualization</text><rect x="806" y="340" width="188" height="4" rx="2" fill="#F2C811"/>
+  </g>
+
+  <line x1="20" y1="378" x2="1640" y2="378" stroke="#e4e3de" stroke-width="2"/>
+
+  <!-- ===== ROW 2: SOLO ===== -->
+  <g transform="translate(0,394)">
+    <text x="30" y="34" font-size="21" font-weight="800" fill="#252423">Solo / small team <tspan font-weight="600" fill="#6c6f76" font-size="16">— you do the same job yourself in Power Query</tspan></text>
+    <use href="#src" x="20" y="70"/>
+    <g stroke="#F2A20C" stroke-width="4" fill="none" stroke-linecap="round"><path d="M128 95 L214 118" marker-end="url(#ao)"/><path d="M128 168 L214 158" marker-end="url(#ao)"/><path d="M128 224 L214 200" marker-end="url(#ao)"/><path d="M128 288 L214 240" marker-end="url(#ao)"/></g>
+    <rect x="226" y="66" width="340" height="220" rx="10" fill="#fbfcfd" stroke="#d9dce1" stroke-width="2"/>
+    <g><g fill="#e7d3bf" stroke="#b08a5e" stroke-width="2"><ellipse cx="296" cy="112" rx="30" ry="9"/><path d="M266 112 V150 a30 9 0 0 0 60 0 V112"/></g><text x="296" y="136" text-anchor="middle" font-size="12" font-weight="700" fill="#7a5a35">Bronze</text>
+      <g fill="#e3e7ea" stroke="#9aa2ab" stroke-width="2"><ellipse cx="396" cy="112" rx="30" ry="9"/><path d="M366 112 V150 a30 9 0 0 0 60 0 V112"/></g><text x="396" y="136" text-anchor="middle" font-size="12" font-weight="700" fill="#6a727b">Silver</text>
+      <g fill="#f6e6a4" stroke="#d4b23f" stroke-width="2"><ellipse cx="496" cy="112" rx="30" ry="9"/><path d="M466 112 V150 a30 9 0 0 0 60 0 V112"/></g><text x="496" y="136" text-anchor="middle" font-size="12" font-weight="700" fill="#8a6d16">Gold</text>
+      <path d="M328 130 H364" stroke="#D9302A" stroke-width="4" marker-end="url(#arr)"/><path d="M428 130 H464" stroke="#D9302A" stroke-width="4" marker-end="url(#arr)"/>
+    </g>
+    <rect x="254" y="192" width="284" height="46" rx="10" fill="#cfe0f2" stroke="#118DFF" stroke-width="2"/><ellipse cx="538" cy="215" rx="9" ry="23" fill="#b7d3ef" stroke="#118DFF" stroke-width="2"/><text x="392" y="222" text-anchor="middle" font-size="18" font-weight="700" fill="#1c4f80">Pipeline</text>
+    <g transform="translate(258,258)"><rect x="0" y="10" width="10" height="24" rx="2" fill="#F2C811"/><rect x="13" y="4" width="10" height="30" rx="2" fill="#F2C811"/><rect x="26" y="-2" width="10" height="36" rx="2" fill="#E6A700"/></g>
+    <text x="300" y="280" font-size="18" font-weight="700" fill="#252423">Power Query</text>
+    <use href="#dp" x="590" y="118"/><text x="642" y="248" text-anchor="middle" font-size="15" font-weight="600" fill="#6c6f76">Data Product</text>
+    <path d="M566 176 q14 -6 22 -8" fill="none" stroke="#F2A20C" stroke-width="4" stroke-linecap="round" marker-end="url(#ao)"/>
+    <path d="M700 168 q20 -4 34 0" fill="none" stroke="#F2A20C" stroke-width="4" stroke-linecap="round" marker-end="url(#ao)"/>
+    <use href="#pbi" x="740" y="70"/>
+    <g transform="translate(770,272)"><rect x="0" y="12" width="10" height="22" rx="2" fill="#F2C811"/><rect x="13" y="6" width="10" height="28" rx="2" fill="#F2C811"/><rect x="26" y="0" width="10" height="34" rx="2" fill="#E6A700"/></g>
+    <text x="826" y="300" font-size="20" font-weight="700" fill="#252423">Power BI</text>
+    <use href="#head" x="1160" y="120"/>
+    <rect x="1100" y="152" width="120" height="26" rx="3" fill="#f6efd0" stroke="#d8c98a"/><text x="1160" y="171" text-anchor="middle" font-size="15" font-weight="700" fill="#252423">Data Analyst</text>
+    <text x="1160" y="212" text-anchor="middle" font-size="24" font-weight="800" fill="#D9302A">SOLO</text>
+    <g font-size="18" font-weight="700" fill="#252423" text-anchor="middle">
+      <text x="396" y="332">Data Preparation</text><rect x="300" y="340" width="192" height="4" rx="2" fill="#F2C811"/>
+      <text x="900" y="332">Data Visualization</text><rect x="806" y="340" width="188" height="4" rx="2" fill="#F2C811"/>
+    </g>
+  </g>
+</svg>
