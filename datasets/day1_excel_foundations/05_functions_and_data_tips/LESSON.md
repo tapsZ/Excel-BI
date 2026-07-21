@@ -27,7 +27,7 @@ Every function follows the same shape: `=NAME(arguments)`. Arguments are separat
 
 ### A range
 
-`H2:H21` means "every cell from H2 down to H31". The colon means "through". You can type it, or just drag over the cells with the mouse after typing `=SUM(`.
+`H2:H21` means "every cell from H2 down to H21". The colon means "through". You can type it, or just drag over the cells with the mouse after typing `=SUM(`.
 
 ### The five you will use constantly
 
