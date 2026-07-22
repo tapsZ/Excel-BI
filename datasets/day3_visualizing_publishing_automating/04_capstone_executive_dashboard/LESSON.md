@@ -7,7 +7,7 @@ title: "Day 3 · Module 4 — Capstone: Build and Present an Executive Dashboard
 **Afternoon · ~2 hours build + 5 minutes presenting**
 
 **Data:** `raw_tables.xlsx` (this folder) — 23 sheets of genuinely messy source data
-**Reference build:** `powerbi_files/day3_visualizing_publishing_automating/Project Clean Model.pbix`
+**📦 Reference build:** [Project Clean Model.pbix](../../../powerbi_files/day3_visualizing_publishing_automating/Project%20Clean%20Model.pbix) — *try Stages 1–3 yourself before opening this.*
 
 **📥 Data file:** [raw_tables.xlsx](raw_tables.xlsx) — download this before you start the capstone
 

@@ -7,7 +7,7 @@ title: "Day 2 · Module 5 — Data Cleaning & Transformation in Power BI"
 **Afternoon · ~50 minutes**
 *Topics: the Power Query Editor in Power BI — cleaning, appending, merging, unpivoting*
 
-**Finished example:** `powerbi_files/day2_advanced_excel_and_power_bi/Data Cleaning (Power Query).pbix`
+**📦 Finished example:** [Data Cleaning (Power Query).pbix](../../../powerbi_files/day2_advanced_excel_and_power_bi/Data%20Cleaning%20%28Power%20Query%29.pbix) — download and open it in Power BI Desktop to inspect the queries.
 **Data:** `orders_jan.csv`, `orders_feb.csv`, `sales_flattable.csv`, `sales_monthly.csv` (this folder)
 
 **📥 Data files:** [orders_jan.csv](orders_jan.csv) · [orders_feb.csv](orders_feb.csv) · [sales_flattable.csv](sales_flattable.csv) · [sales_monthly.csv](sales_monthly.csv)

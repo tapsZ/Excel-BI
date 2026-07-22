@@ -7,7 +7,7 @@ title: "Day 2 · Module 3 — The Power BI Ecosystem & Your First Dashboard"
 **Afternoon · ~60 minutes**
 *Topics: Power BI Desktop / Service / Mobile, connecting Excel and CSV data, building your first report*
 
-**Finished example:** `powerbi_files/day2_advanced_excel_and_power_bi/My First Dashboard.pbix`
+**📦 Finished example:** [My First Dashboard.pbix](../../../powerbi_files/day2_advanced_excel_and_power_bi/My%20First%20Dashboard.pbix) — download and open it in Power BI Desktop to compare against your own build.
 **Data:** `customers.csv`, `orders.csv` (this folder)
 
 **📥 Data files:** [orders.csv](orders.csv) · [customers.csv](customers.csv)

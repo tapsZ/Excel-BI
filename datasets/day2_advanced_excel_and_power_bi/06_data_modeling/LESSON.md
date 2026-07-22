@@ -7,7 +7,7 @@ title: "Day 2 · Module 6 — Data Modelling & Introduction to DAX"
 **Afternoon · ~90 minutes**
 *Topics: relationships, star schemas, hierarchies, calculated columns vs measures, DAX aggregations, time intelligence, KPIs*
 
-**Finished example:** `powerbi_files/day2_advanced_excel_and_power_bi/Data Modeling.pbix`
+**📦 Finished example:** [Data Modeling.pbix](../../../powerbi_files/day2_advanced_excel_and_power_bi/Data%20Modeling.pbix) — download and open it in Power BI Desktop to explore the finished model.
 **Data:** the `dim_*` and `fact_*` CSVs in this folder
 
 > **This is the most important module on Day 2.** Visuals are easy. A good model is what makes them correct.
