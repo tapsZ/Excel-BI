@@ -174,6 +174,20 @@ Build a **one-page dashboard** on your Day 2 model. Requirements:
 
 **Then apply the test:** show it to someone for ten seconds, take it away, and ask what they remember. If it isn't the thing you most wanted them to know, the layout needs work — not more visuals.
 
+### Bonus (just for fun) — an animated Flow Map 🗺️
+
+Your `fact_sales` table knows both *where each order shipped from* (`store_id` → store city) and *where it went* (`customer_id` → customer city). That's an **origin → destination** pair — exactly what a Flow Map draws, as curved arrows you can animate.
+
+1. **Visualizations** pane → **⋯ → Get more visuals** → search **Flow Map** (by Microsoft) → **Add**.
+2. Drop it on the canvas and fill the wells:
+   - **Origin** = store city (from `dim_store`)
+   - **Destination** = customer city (from `dim_customer`)
+   - **Width** = your `Total Sales` measure
+3. If the cities don't plot, set each city column's **Data Category** to **City** (Column tools → Data category) — same fix as the map row below.
+4. In the **Format** pane, turn on the **animation** / curve options to make the arrows flow.
+
+Now the map shows sales streaming from each store out to the cities that bought — thicker arrow, bigger sales. It's a **custom visual**, so remember the earlier caution: check it isn't blocked where the report will actually be read, and don't build anything critical on it. Pure fun and a good "wow" moment — not a best-practice staple.
+
 ### If you get stuck
 
 | Problem | Why | Fix |
