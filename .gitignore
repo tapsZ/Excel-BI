@@ -8,3 +8,7 @@ Gemfile.lock
 
 # macOS
 .DS_Store
+
+# iCloud / sync conflict copies (e.g. "Gemfile 2", "LESSON 2.md")
+* 2
+* 2.*
