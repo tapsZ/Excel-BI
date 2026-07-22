@@ -16,6 +16,14 @@ title: "Day 2 · Module 3 — The Power BI Ecosystem & Your First Dashboard"
 
 ## Learn it
 
+### Why not just keep using Excel?
+
+Excel is brilliant — until a report has to be *repeated*, *shared*, and *kept current*. Then it turns into this: every team building its own copy by hand, versions multiplying (`V1` → `Final` → `Final Final`), and nobody sure which number is right.
+
+![The chaos of Excel: three teams — Sales, Finance, Marketing — each have a data analyst pulling from the same sources and spawning their own chain of spreadsheet versions (V1, V1.1, Final, Final Final, Final V2) over weeks. The whole mess is struck out with a big red cross, leaving managers confused, and Excel's drawbacks are listed: chaos, manual, outdated, no refresh, hard to connect, big data, can't collaborate, unsecured, no access control.](../../../images/excel-drawbacks.svg)
+
+*Three teams, three analysts, a blizzard of "final" versions — and managers left guessing. Those are Excel's **drawbacks** at scale: manual, outdated, no refresh, hard to connect, poor with big data, can't collaborate, unsecured. **Power BI is built to fix exactly these** — one refreshable model, shared once.*
+
 ### The big picture
 
 ![Power BI workflow: data Sources flow into Power BI, through five stages — 1 Power Query, 2 Modeling, 3 DAX, 4 Visuals, 5 Share — then out to Managers who read the finished report.](../../../images/powerbi-workflow.svg)
