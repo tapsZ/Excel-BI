@@ -175,6 +175,20 @@ That interactivity is free. It arrives with the model.
 - `order_date` is **DD/MM/YYYY**. If dates land wrong, set the type using **Locale** → English (United Kingdom)
 - Some customers have a **blank score** — normal, and worth noticing how Power BI handles blanks in aggregations
 
+### Two things happen to `order_date`
+
+Drop `order_date` on a chart axis and it appears split into **Year → Quarter → Month → Day**. That is *two separate mechanisms* — don't confuse them:
+
+**1. The type change — a real transformation.** Turning the text `17/01/2026` into an actual Date is a Power Query step. To see it: **Home → Transform data** → select the `orders` query → read the **Applied Steps** panel on the right → the step is **`Changed Type with Locale`**. Turn on **View → Formula Bar** to see the exact code:
+
+```
+= Table.TransformColumnTypes(#"Promoted Headers", {{"order_date", type date}}, "en-GB")
+```
+
+The `"en-GB"` is the Locale — it's what makes `17/01/2026` read as 17 January (DD/MM), not error as "month 17". Click the ⚙ on the step to reopen its dialog.
+
+**2. The Year/Quarter/Month/Day split — automatic, not a step.** You will *not* find this in Applied Steps. Once a column is a Date, Power BI silently builds a hidden date table and a drillable **Date Hierarchy** for it (the **Auto date/time** feature). See it in the visual's field well: click the arrow beside `order_date` to expand the levels, and use the **drill ▲ / ▼** buttons on the visual to move between Year, Quarter, Month and Day. The field's dropdown in the well switches between the plain **`order_date`** and the **Date Hierarchy**. To turn the feature off everywhere: **File → Options → Data Load → Auto date/time**.
+
 ---
 
 ## Do it — practice
