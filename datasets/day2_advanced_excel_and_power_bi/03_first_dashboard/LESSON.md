@@ -18,11 +18,20 @@ title: "Day 2 · Module 3 — The Power BI Ecosystem & Your First Dashboard"
 
 ### Why not just keep using Excel?
 
-Excel is brilliant — until a report has to be *repeated*, *shared*, and *kept current*. Then it turns into this: every team building its own copy by hand, versions multiplying (`V1` → `Final` → `Final Final`), and nobody sure which number is right.
+Excel is brilliant — until a report has to be *repeated*, *shared*, and *kept current*. Then every team ends up building its own copy by hand, versions multiply (`V1` → `Final` → `Final Final`), and nobody's sure which number is right. Power BI is built to fix exactly that:
 
-![The chaos of Excel: three teams — Sales, Finance, Marketing — each have a data analyst pulling from the same sources and spawning their own chain of spreadsheet versions (V1, V1.1, Final, Final Final, Final V2) over weeks. The whole mess is struck out with a big red cross, leaving managers confused, and Excel's drawbacks are listed: chaos, manual, outdated, no refresh, hard to connect, big data, can't collaborate, unsecured, no access control.](../../../images/excel-drawbacks.svg)
+| What you need to do | In Excel | In Power BI |
+|---|---|---|
+| **Refresh the data** | Re-paste and re-do formulas by hand | Click **Refresh** — every step re-runs automatically |
+| **Handle big data** | Slows down / crashes past ~1M rows | Millions of rows, compressed and fast |
+| **Connect sources** | Manual copy-paste from files & systems | Connect once to databases, files, web, cloud |
+| **Combine tables** | VLOOKUP gymnastics | Proper **relationships** between tables |
+| **Share one version** | Email copies — instant version chaos | One report in the cloud, everyone sees the same |
+| **Keep it up to date** | Someone remembers to redo it | **Scheduled refresh** does it on its own |
+| **Control who sees what** | Whoever has the file | Permissions & **row-level security** |
+| **Stay consistent** | Every analyst rebuilds their own | One shared **model** — one version of the truth |
 
-*Three teams, three analysts, a blizzard of "final" versions — and managers left guessing. Those are Excel's **drawbacks** at scale: manual, outdated, no refresh, hard to connect, poor with big data, can't collaborate, unsecured. **Power BI is built to fix exactly these** — one refreshable model, shared once.*
+Same skills you already have — filtering, formulas, pivots — but built to be reused, refreshed, and shared instead of rebuilt every time.
 
 ### The big picture
 
