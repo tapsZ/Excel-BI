@@ -85,7 +85,7 @@ View → **Query Dependencies** draws a diagram of which queries feed which. On 
 
 ## See it — worked example
 
-Open **`Data Cleaning (Power Query).pbix`** and inspect the queries in the Power Query Editor (Home → Transform Data). Then look at the source files, which are each built to teach one thing.
+Open **[Data Cleaning (Power Query).pbix](../../../powerbi_files/day2_advanced_excel_and_power_bi/Data%20Cleaning%20%28Power%20Query%29.pbix)** and inspect the queries in the Power Query Editor (Home → Transform Data). Then look at the source files, which are each built to teach one thing.
 
 ### `orders_jan.csv` + `orders_feb.csv` — **append**
 

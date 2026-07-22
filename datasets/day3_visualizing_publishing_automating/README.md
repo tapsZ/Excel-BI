@@ -6,7 +6,7 @@ title: "Day 3 — Visualizing, Publishing & Automating Insights"
 
 **Theme: From data to decisions — advanced reporting and storytelling**
 
-> **Prerequisite:** [Day 2](../day2_advanced_excel_and_power_bi/README.md). You need a working Power BI model to present — use `Data Modeling.pbix` or your Day 2 homework file.
+> **Prerequisite:** [Day 2](../day2_advanced_excel_and_power_bi/README.md). You need a working Power BI model to present — use [Data Modeling.pbix](../../powerbi_files/day2_advanced_excel_and_power_bi/Data%20Modeling.pbix) or your Day 2 homework file.
 
 ---
 

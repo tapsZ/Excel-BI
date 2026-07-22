@@ -7,7 +7,7 @@ title: "Day 3 · Module 1 — Power BI Visualization Best Practices"
 **Morning · ~75 minutes**
 *Topics: choosing the right chart, custom visuals, conditional formatting, interactive dashboards with slicers, filters and bookmarks*
 
-> **Work in the model you built on Day 2** (`Data Modeling.pbix` or your homework file). This module is about presentation, so it needs something real to present.
+> **Work in the model you built on Day 2** ([Data Modeling.pbix](../../../powerbi_files/day2_advanced_excel_and_power_bi/Data%20Modeling.pbix) or your homework file). This module is about presentation, so it needs something real to present.
 
 ---
 

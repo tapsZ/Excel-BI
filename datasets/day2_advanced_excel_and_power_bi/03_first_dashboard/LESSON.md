@@ -151,7 +151,7 @@ Power BI Desktop files are **`.pbix`**. One file holds the data, the model, the 
 
 ## See it — worked example
 
-Open **`powerbi_files/day2_advanced_excel_and_power_bi/My First Dashboard.pbix`**.
+Open **[My First Dashboard.pbix](../../../powerbi_files/day2_advanced_excel_and_power_bi/My%20First%20Dashboard.pbix)** (download it from the link if you haven't already).
 
 It is built on the two CSVs in this folder — the same NovaTech Retail orders and customers you worked with all through Day 1. The data is familiar; only the tool is new.
 
@@ -197,7 +197,7 @@ Build your own version from scratch — the fastest way to make this stick.
 9. **Test the cross-filtering** — click a bar and watch everything respond
 10. Save as `.pbix`
 
-**Check yourself:** compare against `My First Dashboard.pbix`. Your totals should match; your layout will differ, and that's fine.
+**Check yourself:** compare against **[My First Dashboard.pbix](../../../powerbi_files/day2_advanced_excel_and_power_bi/My%20First%20Dashboard.pbix)**. Your totals should match; your layout will differ, and that's fine.
 
 ### If you get stuck
 

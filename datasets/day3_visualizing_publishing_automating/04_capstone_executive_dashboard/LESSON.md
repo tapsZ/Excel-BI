@@ -167,7 +167,7 @@ Two minutes, out loud, once through beforehand.
 
 ## The reference build
 
-`Project Clean Model.pbix` is one worked solution. **Try Stages 1–3 yourself before opening it** — comparing your model against a reference teaches far more than copying one.
+**[Project Clean Model.pbix](../../../powerbi_files/day3_visualizing_publishing_automating/Project%20Clean%20Model.pbix)** is one worked solution. **Try Stages 1–3 yourself before opening it** — comparing your model against a reference teaches far more than copying one.
 
 Your model will differ, and that's fine. There are several defensible answers here. What matters is that yours is *deliberate*: you can say why each table is in it and why each is out.
 

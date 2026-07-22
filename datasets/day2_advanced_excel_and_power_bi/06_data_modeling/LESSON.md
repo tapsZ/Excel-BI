@@ -252,7 +252,7 @@ RETURN
 
 ## See it — worked example
 
-Open **`Data Modeling.pbix`** and go to **Model view**.
+Open **[Data Modeling.pbix](../../../powerbi_files/day2_advanced_excel_and_power_bi/Data%20Modeling.pbix)** and go to **Model view**.
 
 ### The tables
 
