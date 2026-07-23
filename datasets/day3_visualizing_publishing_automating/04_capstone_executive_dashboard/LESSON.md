@@ -61,7 +61,7 @@ Open **Get Data → Excel workbook →** select the file → **Navigator**, and 
 
 **2 points for each trap you spot, up to 10.**
 
-<details>
+<details markdown="1">
 <summary><strong>⏱ Time's up — the traps</strong></summary>
 
 1. **`order_lines_BACKUP` is a byte-for-byte copy of `order_lines`** — same 578 rows. Load both and every revenue figure doubles. Load one. *(Day 2 M5)*
@@ -95,7 +95,7 @@ Then, in Power Query:
 
 > **Why the anti join comes before anything else.** An orphan row still adds to your revenue total but vanishes from every breakdown by product or category. Your totals and your charts then disagree, and you find out in the meeting.
 
-<details>
+<details markdown="1">
 <summary><strong>✅ Check your numbers — Round 1</strong></summary>
 
 | Checkpoint | Answer |
@@ -148,7 +148,7 @@ Now relate `Date[Date]` **1 → ✱** `monthly_targets[TargetDate]`. Each month'
 
 Finally: hide the key columns, and check the Model view for ambiguous paths.
 
-<details>
+<details markdown="1">
 <summary><strong>✅ Check your numbers — Round 2</strong></summary>
 
 **Five tables, five relationships, every one one-to-many and single direction.** Filters flow `Date → Orders → order_lines` and `branches → Orders → order_lines`.
@@ -185,7 +185,7 @@ Achievement %    = DIVIDE([Total Revenue], [Revenue Target])
 
 Now put a matrix on the page — `Date[Year]` down the side, your measures across — and read it. Something in it should stop you.
 
-<details>
+<details markdown="1">
 <summary><strong>✅ Check your numbers — Round 3</strong></summary>
 
 **Whole model, both years**
@@ -272,7 +272,7 @@ Do not narrate your Power Query steps. Nobody in that room cares how many merges
 
 Open this **only after your pitch**.
 
-<details>
+<details markdown="1">
 <summary><strong>The answer</strong></summary>
 
 **The headline.** Revenue grew 2.6% to $246,806.05 in 2026. Gross profit fell 12.7% to $48,651.84. The growth was bought, not earned.
