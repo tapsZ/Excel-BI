@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="Wireframe of a one-page executive dashboard in three acts. Act 1, Context: a title that states the finding, then a row of four KPI cards each carrying a comparison against target or last year. Act 2, Conflict: a wide trend line over time showing revenue against target. Act 3, Resolution: a sorted bar chart naming the cause, a matrix of margin by category, and a written recommendation box. A slicer strip sits down the right-hand edge.">
+  <rect width="1100" height="600" fill="#ffffff"/>
+
+  <!-- act rails -->
+  <g font-size="12" font-weight="700" letter-spacing="1.4">
+    <rect x="20" y="66"  width="5" height="96"  rx="2.5" fill="#F2A20C"/>
+    <text x="38" y="92"  fill="#F2A20C">ACT 1</text>
+    <text x="38" y="110" font-size="11" font-weight="600" letter-spacing="0" fill="#8a8d93">Context</text>
+    <text x="38" y="130" font-size="11" font-weight="400" letter-spacing="0" fill="#8a8d93">Where we</text>
+    <text x="38" y="145" font-size="11" font-weight="400" letter-spacing="0" fill="#8a8d93">stand</text>
+
+    <rect x="20" y="188" width="5" height="132" rx="2.5" fill="#F2C811"/>
+    <text x="38" y="214" fill="#b8940c">ACT 2</text>
+    <text x="38" y="232" font-size="11" font-weight="600" letter-spacing="0" fill="#8a8d93">Conflict</text>
+    <text x="38" y="252" font-size="11" font-weight="400" letter-spacing="0" fill="#8a8d93">What</text>
+    <text x="38" y="267" font-size="11" font-weight="400" letter-spacing="0" fill="#8a8d93">changed</text>
+
+    <rect x="20" y="346" width="5" height="222" rx="2.5" fill="#157878"/>
+    <text x="38" y="372" fill="#157878">ACT 3</text>
+    <text x="38" y="390" font-size="11" font-weight="600" letter-spacing="0" fill="#8a8d93">Resolution</text>
+    <text x="38" y="410" font-size="11" font-weight="400" letter-spacing="0" fill="#8a8d93">Why, and</text>
+    <text x="38" y="425" font-size="11" font-weight="400" letter-spacing="0" fill="#8a8d93">what next</text>
+  </g>
+
+  <!-- page canvas -->
+  <rect x="130" y="24" width="950" height="552" rx="10" fill="#fbfcfd" stroke="#d9dce1" stroke-width="2"/>
+
+  <!-- ===== title ===== -->
+  <text x="152" y="58" font-size="19" font-weight="700" fill="#252423">Phone discounting cost us $9.7k of gross profit in 2026</text>
+  <text x="152" y="78" font-size="12" fill="#8a8d93">a title that states the finding &#8212; never &#8220;Sales Overview&#8221;</text>
+
+  <!-- ===== ACT 1: KPI row ===== -->
+  <g>
+    <rect x="152" y="92" width="196" height="76" rx="6" fill="#ffffff" stroke="#d9dce1" stroke-width="1.5"/>
+    <text x="166" y="112" font-size="10.5" font-weight="600" fill="#8a8d93" letter-spacing="0.6">REVENUE</text>
+    <text x="166" y="140" font-size="23" font-weight="700" fill="#252423">$246.8k</text>
+    <text x="166" y="158" font-size="11.5" font-weight="600" fill="#1a7f4b">&#9650; 2.6% vs 2025</text>
+
+    <rect x="360" y="92" width="196" height="76" rx="6" fill="#ffffff" stroke="#d9dce1" stroke-width="1.5"/>
+    <text x="374" y="112" font-size="10.5" font-weight="600" fill="#8a8d93" letter-spacing="0.6">GROSS PROFIT</text>
+    <text x="374" y="140" font-size="23" font-weight="700" fill="#252423">$48.7k</text>
+    <text x="374" y="158" font-size="11.5" font-weight="600" fill="#c0392b">&#9660; 12.7% vs 2025</text>
+
+    <rect x="568" y="92" width="196" height="76" rx="6" fill="#ffffff" stroke="#d9dce1" stroke-width="1.5"/>
+    <text x="582" y="112" font-size="10.5" font-weight="600" fill="#8a8d93" letter-spacing="0.6">MARGIN %</text>
+    <text x="582" y="140" font-size="23" font-weight="700" fill="#252423">19.7%</text>
+    <text x="582" y="158" font-size="11.5" font-weight="600" fill="#c0392b">&#9660; 3.5 pts vs 2025</text>
+
+    <rect x="776" y="92" width="196" height="76" rx="6" fill="#ffffff" stroke="#d9dce1" stroke-width="1.5"/>
+    <text x="790" y="112" font-size="10.5" font-weight="600" fill="#8a8d93" letter-spacing="0.6">VS TARGET</text>
+    <text x="790" y="140" font-size="23" font-weight="700" fill="#252423">91%</text>
+    <text x="790" y="158" font-size="11.5" font-weight="600" fill="#c0392b">&#9660; $24.4k short</text>
+  </g>
+
+  <!-- ===== ACT 2: trend ===== -->
+  <rect x="152" y="188" width="820" height="132" rx="6" fill="#ffffff" stroke="#d9dce1" stroke-width="1.5"/>
+  <text x="166" y="208" font-size="12.5" font-weight="700" fill="#252423">Revenue held up all year &#8212; margin did not</text>
+  <!-- axis -->
+  <line x1="176" y1="302" x2="952" y2="302" stroke="#e3e6ea" stroke-width="1.5"/>
+  <!-- target line -->
+  <path d="M176 268 L952 258" fill="none" stroke="#b9bec5" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="900" y="250" font-size="10" font-weight="600" fill="#9aa0a7">target</text>
+  <!-- revenue line -->
+  <path d="M176 272 L241 250 L306 236 L371 262 L436 248 L501 268 L566 258 L631 244 L696 276 L761 232 L826 262 L891 240 L952 246"
+        fill="none" stroke="#F2A20C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- gap marker -->
+  <rect x="371" y="216" width="34" height="86" fill="#f3f4f6"/>
+  <text x="388" y="296" font-size="9" font-weight="700" fill="#a0a4aa" text-anchor="middle">gap</text>
+
+  <!-- ===== ACT 3: cause + recommendation ===== -->
+  <!-- sorted bar -->
+  <rect x="152" y="346" width="396" height="222" rx="6" fill="#ffffff" stroke="#d9dce1" stroke-width="1.5"/>
+  <text x="166" y="366" font-size="12.5" font-weight="700" fill="#252423">Only phones lost margin</text>
+  <g font-size="10.5" fill="#6c6f76">
+    <text x="166" y="392">Phones</text>
+    <rect x="244" y="382" width="64" height="13" rx="2" fill="#c0392b"/>
+    <text x="316" y="392" font-weight="700" fill="#252423">10.6%</text>
+
+    <text x="166" y="418">Computers</text>
+    <rect x="244" y="408" width="116" height="13" rx="2" fill="#cfd4da"/>
+    <text x="368" y="418">19.3%</text>
+
+    <text x="166" y="444">Tablets</text>
+    <rect x="244" y="434" width="142" height="13" rx="2" fill="#cfd4da"/>
+    <text x="394" y="444">23.6%</text>
+
+    <text x="166" y="470">Smart Home</text>
+    <rect x="244" y="460" width="204" height="13" rx="2" fill="#cfd4da"/>
+    <text x="456" y="470">34.0%</text>
+
+    <text x="166" y="496">Audio</text>
+    <rect x="244" y="486" width="225" height="13" rx="2" fill="#cfd4da"/>
+    <text x="477" y="496">37.5%</text>
+
+    <text x="166" y="522">Accessories</text>
+    <rect x="244" y="512" width="246" height="13" rx="2" fill="#cfd4da"/>
+    <text x="498" y="522">41.0%</text>
+  </g>
+  <text x="166" y="552" font-size="10.5" font-style="italic" fill="#8a8d93">sorted, one colour, the outlier highlighted</text>
+
+  <!-- recommendation -->
+  <rect x="560" y="346" width="412" height="222" rx="6" fill="#ffffff" stroke="#157878" stroke-width="2"/>
+  <rect x="560" y="346" width="412" height="30" rx="6" fill="#157878"/>
+  <rect x="560" y="366" width="412" height="10" fill="#157878"/>
+  <text x="576" y="367" font-size="12.5" font-weight="700" fill="#ffffff">So what &#8212; and now what?</text>
+  <g font-size="11.5" fill="#3b3f45">
+    <text x="576" y="404" font-weight="700" fill="#252423">What</text>
+    <text x="640" y="404">Revenue grew 2.6%; gross profit fell 12.7%.</text>
+    <text x="576" y="432" font-weight="700" fill="#252423">Why</text>
+    <text x="640" y="432">Average phone discount went 2% &#8594; 12.8%.</text>
+    <text x="576" y="460" font-weight="700" fill="#252423">So what</text>
+    <text x="640" y="460">Phones are 40% of sales &#8212; it swamps the rest.</text>
+    <text x="576" y="488" font-weight="700" fill="#252423">Now what</text>
+    <text x="640" y="488">Cap phone discount at 5%; approvals above.</text>
+    <text x="576" y="516" font-weight="700" fill="#252423">Caveat</text>
+    <text x="640" y="516">Apr and Sep 2026 are missing from the export.</text>
+  </g>
+  <text x="576" y="548" font-size="10.5" font-style="italic" fill="#8a8d93">a text box, written in words, on the page itself</text>
+
+  <!-- slicer strip -->
+  <rect x="990" y="92" width="76" height="476" rx="6" fill="#ffffff" stroke="#d9dce1" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="1028" y="120" font-size="10.5" font-weight="700" fill="#8a8d93" text-anchor="middle">SLICERS</text>
+  <rect x="1004" y="136" width="48" height="15" rx="3" fill="#eef1f4"/>
+  <rect x="1004" y="158" width="48" height="15" rx="3" fill="#eef1f4"/>
+  <text x="1028" y="196" font-size="9.5" fill="#a0a4aa" text-anchor="middle">two,</text>
+  <text x="1028" y="210" font-size="9.5" fill="#a0a4aa" text-anchor="middle">no more</text>
+</svg>

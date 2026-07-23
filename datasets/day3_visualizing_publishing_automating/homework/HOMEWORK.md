@@ -18,15 +18,16 @@ Work in your capstone file from [Module 4](../04_capstone_executive_dashboard/LE
 
 ## Part 1 — Add a new DAX measure *(Day 2 M6)*
 
-Add **one** measure your dashboard doesn't yet have. Pick whichever is most useful for your story:
+Add **one** measure your dashboard doesn't yet have. The first four work straight on the **Dashboard Dash** model; the last two need the **Boss Level** model (`raw_tables.xlsx`), which has the `shipments`, `payments` and `INVOICES` tables. Pick whichever is most useful for your story:
 
-| Measure | DAX |
-|---|---|
-| Rolling 3-month revenue | `CALCULATE([Total Revenue], DATESINPERIOD('Date'[Date], MAX('Date'[Date]), -3, MONTH))` |
-| Share of total | `DIVIDE([Total Revenue], CALCULATE([Total Revenue], ALL(Products)))` |
-| Days to deliver | `AVERAGEX(shipments, DATEDIFF(shipments[ShipDate], shipments[DeliveryDate], DAY))` |
-| Days to pay | `AVERAGEX(payments, DATEDIFF(RELATED(INVOICES[InvoiceDate]), payments[PayDate], DAY))` |
-| Margin vs last year | `[Gross Margin %] - CALCULATE([Gross Margin %], SAMEPERIODLASTYEAR('Date'[Date]))` |
+| Measure | DAX | Model |
+|---|---|---|
+| Rolling 3-month revenue | `CALCULATE([Total Revenue], DATESINPERIOD('Date'[Date], MAX('Date'[Date]), -3, MONTH))` | either |
+| Margin vs last year | `[Gross Margin %] - CALCULATE([Gross Margin %], SAMEPERIODLASTYEAR('Date'[Date]))` | either |
+| Revenue vs target | `[Total Revenue] - [Revenue Target]` | either |
+| Share of category revenue | `DIVIDE([Total Revenue], CALCULATE([Total Revenue], ALL(PRODUCTS[Category])))` | either |
+| Days to deliver | `AVERAGEX(shipments, DATEDIFF(shipments[ShipDate], shipments[DeliveryDate], DAY))` | Boss Level only |
+| Days to pay | `AVERAGEX(payments, DATEDIFF(RELATED(INVOICES[InvoiceDate]), payments[PayDate], DAY))` | Boss Level only |
 
 **Requirements:**
 
@@ -51,7 +52,7 @@ If the page is now crowded, **remove something**. A dashboard that grows without
    - A measure: `Last Refresh = "Data as at " & FORMAT(MAX('Date'[Date]), "dd MMM yyyy")`
    - Put it in a small card or text box in a corner
 10. Add a **contact** — your name or team — so people know who to ask
-11. Apply **row-level security** using the `security` sheet, and test it with **View as role**
+11. Apply **row-level security** and test it with **View as role**. On the Dashboard Dash model, filter on `branches[City]` — e.g. `[City] = "Mutare"` for a branch-manager role. (The Boss Level model has a ready-made `security` sheet mapping users to regions if you'd rather map roles to users.)
 
 ## Part 4 — Publish and deliver *(Day 3 M3)*
 

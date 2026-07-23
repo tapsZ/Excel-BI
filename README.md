@@ -88,7 +88,7 @@ A single running dataset — **NovaTech Retail**, a consumer electronics busines
 **Afternoon — publishing & capstone**
 
 3. [Publishing, Sharing & Automating](datasets/day3_visualizing_publishing_automating/03_publishing_and_sharing/LESSON.md) — Service, workspaces, refresh, gateways, RLS
-4. [**Capstone** — Build and Present an Executive Dashboard](datasets/day3_visualizing_publishing_automating/04_capstone_executive_dashboard/LESSON.md)
+4. [**Capstone** — The 45-Minute Dashboard Dash](datasets/day3_visualizing_publishing_automating/04_capstone_executive_dashboard/LESSON.md) — six timed rounds; clean, model, measure, build and pitch (plus an optional take-home Boss Level)
 
 **Homework:** [Extend, Automate, Publish](datasets/day3_visualizing_publishing_automating/homework/HOMEWORK.md)
 **Outcome:** design, present and publish a full Power BI dashboard — and say what should be done about what it shows.

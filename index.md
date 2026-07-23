@@ -42,7 +42,7 @@ The morning finishes Excel properly: `XLOOKUP`, `INDEX`/`MATCH`, dynamic arrays,
 ### [Day 3 — Visualizing, Publishing & Automating](datasets/day3_visualizing_publishing_automating/README.md)
 *From data to decisions*
 
-Choosing charts that don't mislead, telling a story with data, publishing and scheduling refreshes — then a capstone: build and present an executive dashboard from 23 sheets of messy real-world data.
+Choosing charts that don't mislead, telling a story with data, publishing and scheduling refreshes — then a fast, gamified capstone: **the 45-Minute Dashboard Dash**, six timed rounds to clean, model, measure, build and pitch a one-page executive dashboard on NovaTech's own messy export (with an optional 23-sheet Boss Level to take home).
 
 ---
 
