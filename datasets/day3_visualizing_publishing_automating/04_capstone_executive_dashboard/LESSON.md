@@ -298,6 +298,8 @@ Phone gross profit fell from **$19,702.14 to $9,982.54** — a loss of **$9,719.
 
 </details>
 
+> **📓 Full worked solution:** [SOLUTION_dash.md](SOLUTION_dash.md) — every click, formula and figure, round by round. **Open it only after your pitch.**
+
 ---
 
 ## 👹 Boss Level — optional, take-home
@@ -317,6 +319,8 @@ The extra traps in it:
 **A good model uses eight to ten of the 23 sheets, not all of them.** Deciding what to exclude is the exercise. Weight your own effort the way the Dash does: cleaning and modelling first, visuals last.
 
 **📦 Reference build:** [Project Clean Model.pbix](../../../powerbi_files/day3_visualizing_publishing_automating/Project%20Clean%20Model.pbix) — one worked solution. Try it yourself before opening it; comparing your model against a reference teaches far more than copying one. Yours will differ, and that's fine. What matters is that it's *deliberate* — that you can say why each table is in it and why each is out.
+
+**📓 Step-by-step answer key:** [SOLUTION_boss.md](SOLUTION_boss.md) — the full seven-stage walkthrough with verified figures, to read alongside the reference build once you've had a go.
 
 ---
 

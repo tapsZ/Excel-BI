@@ -38,6 +38,7 @@ The morning covers visual design and narrative — how to choose charts that don
 
 **Capstone data:** [novatech_capstone.xlsx](04_capstone_executive_dashboard/novatech_capstone.xlsx) — NovaTech Retail's raw export, download this before the afternoon session
 **Optional Boss Level:** [raw_tables.xlsx](04_capstone_executive_dashboard/raw_tables.xlsx) (23 sheets, take-home) with reference build [Project Clean Model.pbix](../../powerbi_files/day3_visualizing_publishing_automating/Project%20Clean%20Model.pbix)
+**Worked solutions** (open after your own attempt): [Dashboard Dash](04_capstone_executive_dashboard/SOLUTION_dash.md) · [Boss Level](04_capstone_executive_dashboard/SOLUTION_boss.md)
 
 ## Homework
 
